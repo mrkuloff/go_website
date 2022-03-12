@@ -1,0 +1,45 @@
+.banner{
+  position: relative;
+  height: 823px;
+  background-color: #1B1A1B;
+  box-sizing: content-box;
+}
+
+section.banner{
+  padding-top: 100px;
+}
+
+.banner__start-word{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 100%;
+
+  text-align: left;
+  letter-spacing: -0.1em;
+
+  margin: 0;
+}
+
+.banner__start-word::after {
+  content: '';
+  position: absolute;
+
+  left: 1055px;
+  top: 160px;
+
+  width: 675px;
+  height: 762px;
+
+  background-image: url('../banner/img/man.png');
+}
+
+.banner__text{
+  padding-left: 110px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+}
+

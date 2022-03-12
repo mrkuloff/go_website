@@ -1,0 +1,71 @@
+
+.halls__block{
+  block-size: border-box;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+
+  position: relative;
+}
+
+.halls__block:not(:nth-child(2n-1)){
+  block-size: border-box;
+  margin-right: 15px;
+}
+
+.halls__block-3, .halls__block-4{
+  margin-bottom: 0;
+}
+
+.halls__text{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  padding-top: 0;
+  margin-bottom: 60px;
+}
+
+.halls__block figcaption{
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  /* identical to box height, or 114% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.halls__text-1{
+  position: absolute;
+  left: 15%;
+  top: 40%;
+
+}
+
+.halls__text-2{
+  position: absolute;
+  left: 15%;
+  top: 40%;
+
+}
+
+.halls__text-3{
+  position: absolute;
+  left: 15%;
+  top: 40%;
+}
+
+.halls__text-4{
+  position: absolute;
+  left: 15%;
+  top: 40%;
+}

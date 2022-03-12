@@ -1,0 +1,121 @@
+.about__start-word{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 40px;
+}
+
+.about__text{
+  width: 500px;
+  height: 222px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+
+  margin-bottom: 59px;
+}
+
+.about__text span{
+  display: block;
+}
+
+.about__text span:last-child{
+  margin-top: 40px;
+}
+
+.about__heading{
+  width: 469px;
+  height: 191px;
+  left: 161px;
+  top: 4692px;
+
+  margin-bottom: 39px;
+  padding-left: 31px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 50px;
+
+  text-transform: uppercase;
+}
+
+.about__quote-1{
+  position: absolute;
+  width: 22px;
+  height: 50px;
+  left: 1605px;
+  top: 2422px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 50px;
+  /* identical to box height, or 114% */
+
+  text-transform: uppercase;
+
+  color: #6C0287;
+}
+
+.about__quote-2{
+  position: absolute;
+  width: 22px;
+  height: 50px;
+  left: 1975px;
+  top: 2567px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 50px;
+  /* identical to box height, or 114% */
+
+  text-transform: uppercase;
+
+  color: #6C0287;
+}
+
+.about__boss {
+  padding-left: 114px;
+}
+
+.about__boss img {
+  float: left;
+  padding-right: 30px;
+}
+
+.about__boss figcaption{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.about__boss span{
+  display: block;
+}
+
+.about__block-1{
+  margin-right: 75px;
+  width: 600px;
+  height: 596px;
+
+  background-image: url("../about/img/photos.png");
+
+}
+
+.about__block-2 {
+  vertical-align: top;
+}
+
+.about__block{
+  display: inline-block;
+}

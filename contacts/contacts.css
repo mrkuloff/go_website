@@ -1,0 +1,88 @@
+section.contacts {
+  padding-bottom: 100px;
+}
+
+.contacts__text {
+  margin-bottom: 54px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts__link{
+  list-style: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.contacts__block-adres {
+  margin-bottom: 41px;
+}
+
+.contacts__link_adres{
+  background-image: url("../contacts/img/location.svg");
+}
+
+.contacts__link_phone{
+  background-image: url("../contacts/img/phone-call.svg");
+}
+
+.contacts__link_mail{
+  background-image: url("../contacts/img/envelope.svg");
+}
+
+.contacts__link_p{
+  padding-left: 63px;
+}
+
+.contacts__link_a{
+  padding-left: 62px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.contacts__mes{
+  display: inline;
+  margin-right: 28px;
+}
+
+.contacts__block {
+  margin-bottom: 90px;
+}
+
+.contacts__mes > a {
+  padding-left: 48px;
+  padding-top: 48px;
+}
+
+.contacts__link_inst {
+  background-size: 48px 48px;
+  background-image: url("../contacts/img/entypo-social_instagram-with-circle.svg");
+  background-repeat: no-repeat;
+}
+
+.contacts__link_vk {
+  background-size: 48px 48px;
+  background-image: url("../contacts/img/entypo-social_vk-with-circle.svg");
+  background-repeat: no-repeat;
+}
+
+.contacts__link_fb {
+  background-size: 48px 48px;
+  background-image: url("../contacts/img/akar-icons_facebook-fill.svg");
+  background-repeat: no-repeat;
+}
+
+.contacts__link_tg {
+  background-size: 48px 48px;
+  background-image: url("../contacts/img/bi_telegram.svg");
+  background-repeat: no-repeat;
+}

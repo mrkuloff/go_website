@@ -1,0 +1,63 @@
+.feedback__blocks {
+  padding-bottom: 50px;
+}
+
+.feedback__blocks:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+
+.feedback__main-block {
+  padding: 0 90px;
+}
+
+.feedback__start-word {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 40px;
+}
+
+.feedback__block{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.feedback__block-1 {
+  margin-right: 20px;
+}
+
+.feedback__img {
+  margin-bottom: 11px;
+}
+
+.feedback__block-2 {
+  width: 680px;
+  height: 88px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.feedback__block-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+}

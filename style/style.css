@@ -1,0 +1,21 @@
+@import "../style/global_style.css";
+@import "../about/about.css";
+@import "../banner/banner.css";
+@import "../contacts/contacts.css";
+@import "../halls/halls.css";
+@import "../style/normalize.css";
+@import "../head/head.css";
+@import "../questions/questions.css";
+@import "../feedback/feedback.css";
+
+* {
+  box-sizing: border-box;
+}
+
+blockquote {
+  text-transform: uppercase;
+}
+
+span{
+  display: block;
+}
