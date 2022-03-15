@@ -55,7 +55,7 @@ section.contacts {
 }
 
 .contacts__block {
-  margin-bottom: 90px;
+  margin-bottom: 30px;
 }
 
 .contacts__mes > a {
@@ -64,25 +64,39 @@ section.contacts {
 }
 
 .contacts__link_inst {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
   background-size: 48px 48px;
   background-image: url("../contacts/img/entypo-social_instagram-with-circle.svg");
   background-repeat: no-repeat;
 }
 
 .contacts__link_vk {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
   background-size: 48px 48px;
   background-image: url("../contacts/img/entypo-social_vk-with-circle.svg");
   background-repeat: no-repeat;
 }
 
 .contacts__link_fb {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
   background-size: 48px 48px;
   background-image: url("../contacts/img/akar-icons_facebook-fill.svg");
   background-repeat: no-repeat;
 }
 
 .contacts__link_tg {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
   background-size: 48px 48px;
   background-image: url("../contacts/img/bi_telegram.svg");
   background-repeat: no-repeat;
 }
+
+
