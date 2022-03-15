@@ -27,14 +27,14 @@
 }
 
 .about__text span:last-child{
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .about__heading{
+  position: relative;
+
   width: 469px;
   height: 191px;
-  left: 161px;
-  top: 4692px;
 
   margin-bottom: 39px;
   padding-left: 31px;
@@ -51,8 +51,9 @@
   position: absolute;
   width: 22px;
   height: 50px;
-  left: 1605px;
-  top: 2422px;
+
+  left: 869px;
+  top: 2327px;
 
   font-style: normal;
   font-weight: 900;
@@ -69,8 +70,8 @@
   position: absolute;
   width: 22px;
   height: 50px;
-  left: 1975px;
-  top: 2567px;
+  left: 1231px;
+  top: 2478px;
 
   font-style: normal;
   font-weight: 900;
@@ -89,7 +90,7 @@
 
 .about__boss img {
   float: left;
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 .about__boss figcaption{

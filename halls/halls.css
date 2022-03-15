@@ -1,20 +1,62 @@
 
-.halls__block{
-  block-size: border-box;
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: 20px;
-
-  position: relative;
-}
-
-.halls__block:not(:nth-child(2n-1)){
+.halls__block:not(:nth-child(2n-1)) {
   block-size: border-box;
   margin-right: 15px;
 }
 
-.halls__block-3, .halls__block-4{
-  margin-bottom: 0;
+.halls__block1, .halls__block2{
+  margin-bottom: 15px;
+}
+
+.halls__block-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  /* identical to box height, or 114% */
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.halls__block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.halls__bloc-uni {
+  background-size: 580px 349px;
+  background-repeat: no-repeat;
+  width: 580px;
+  height: 349px;
+}
+
+.halls__block1 {
+  background-image: url("../halls/img/halls1.png");
+
+  padding-left: 10px;
+  padding-top: 135px;
+}
+
+.halls__block2 {
+  background-image: url("../halls/img/halls2.png");
+
+  padding-left: 10px;
+  padding-top: 135px;
+}
+
+.halls__block3 {
+  background-image: url("../halls/img/halls3.png");
+
+  padding-left: 10px;
+  padding-top: 135px;
+}
+
+.halls__block4 {
+  background-image: url("../halls/img/halls4.png");
+
+  padding-left: 10px;
+  padding-top: 135px;
 }
 
 .halls__text{
@@ -28,44 +70,4 @@
 
   padding-top: 0;
   margin-bottom: 60px;
-}
-
-.halls__block figcaption{
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 70px;
-  line-height: 80px;
-  /* identical to box height, or 114% */
-
-  text-align: center;
-  text-transform: uppercase;
-
-  color: #FFFFFF;
-}
-
-.halls__text-1{
-  position: absolute;
-  left: 15%;
-  top: 40%;
-
-}
-
-.halls__text-2{
-  position: absolute;
-  left: 15%;
-  top: 40%;
-
-}
-
-.halls__text-3{
-  position: absolute;
-  left: 15%;
-  top: 40%;
-}
-
-.halls__text-4{
-  position: absolute;
-  left: 15%;
-  top: 40%;
 }

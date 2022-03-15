@@ -26,7 +26,7 @@
 
 .feedback__block{
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .feedback__block-1 {
