@@ -10,8 +10,12 @@ section.banner{
 }
 
 .banner__start-word{
+  position: relative;
+
+  font-family: "Arial Black", serif;
+
   font-style: normal;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 150px;
   line-height: 100%;
 
@@ -25,7 +29,7 @@ section.banner{
   content: '';
   position: absolute;
 
-  left: 1055px;
+  left: 650px;
   top: 160px;
 
   width: 675px;
