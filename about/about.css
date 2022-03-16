@@ -47,13 +47,15 @@
   text-transform: uppercase;
 }
 
-.about__quote-1{
+.about__heading::after {
+  content: '"';
+
   position: absolute;
   width: 22px;
   height: 50px;
 
-  left: 869px;
-  top: 2327px;
+  left: 0;
+  top: 0;
 
   font-style: normal;
   font-weight: 900;
@@ -66,12 +68,15 @@
   color: #6C0287;
 }
 
-.about__quote-2{
+.about__heading::before {
+  content: '"';
+
   position: absolute;
   width: 22px;
   height: 50px;
-  left: 1231px;
-  top: 2478px;
+
+  left: 365px;
+  top: 151px;
 
   font-style: normal;
   font-weight: 900;
