@@ -5,10 +5,6 @@
   box-sizing: content-box;
 }
 
-section.banner{
-  padding-top: 100px;
-}
-
 .banner__start-word{
   position: relative;
 
@@ -39,6 +35,8 @@ section.banner{
 }
 
 .banner__text{
+  padding-bottom: 65px;
+
   padding-left: 110px;
 
   font-style: normal;
@@ -47,3 +45,82 @@ section.banner{
   line-height: 50px;
 }
 
+.banner__blocks {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.banner__block1 {
+  flex-basis: 193px;
+}
+
+.banner__1tittle1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 141px;
+  /* identical to box height */
+
+  color: #CD06FF;
+
+  text-align: center;
+}
+
+.banner__1tittle2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.banner__block2 {
+  flex-basis: 161px;
+}
+
+.banner__2tittle1 {
+  padding-top: 36px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 75px;
+  line-height: 106px;
+  /* identical to box height */
+
+  font-variant: small-caps;
+
+  color: #CD06FF;
+}
+
+.banner__2tittle2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.banner__checkbox {
+  width: 374px;
+  height: 80px;
+
+  background: #6C0287;
+  border-radius: 10px;
+
+  padding: 25px 69px;
+}
+
+.banner__p-checkbox {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  /* identical to box height, or 115% */
+
+  text-transform: uppercase;
+}
+
+.banner__blocks {
+  margin-bottom: 150px;
+}

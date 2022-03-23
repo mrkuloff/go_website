@@ -1,0 +1,16 @@
+.form {
+  background: #440F51;
+}
+
+.form__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  /* or 125% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 40px;
+}

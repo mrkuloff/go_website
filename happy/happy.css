@@ -1,0 +1,58 @@
+.happy__text {
+  width: 980px;
+  height: 103px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  /* or 125% */
+
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.happy__list {
+  display: flex;
+  flex-basis: 380px;
+  gap: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.happy__p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.happy__item {
+  padding-top: 166px;
+  padding-left: 40px;
+
+  width: 380px;
+  height: 228px;
+}
+
+.happy__item_1 {
+  background-image: url("../happy/img/1.png");
+}
+
+.happy__item_2 {
+  background-image: url("../happy/img/2.png");
+}
+.happy__item_3 {
+  background-image: url("../happy/img/3.png");
+}
+.happy__item_4 {
+  background-image: url("../happy/img/4.png");
+}
+.happy__item_5 {
+  background-image: url("../happy/img/5.png");
+}
+.happy__item_6 {
+  background-image: url("../happy/img/6.png");
+}
+

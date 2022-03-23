@@ -1,0 +1,54 @@
+nav {
+  padding: 50px 0;
+}
+
+.menu {
+  max-width: 1180px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  list-style: none;
+}
+
+.menu__item {
+  display: inline-block;
+  padding-right: 40px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+  /* identical to box height, or 227% */
+
+  text-transform: uppercase;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
+.menu__checkbox {
+  width: 280px;
+  height: 55px;
+
+  border: 3px solid #CD06FF;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  padding: 12px 32px;
+}
+
+.menu__order {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 30px;
+  /* identical to box height, or 136% */
+
+  text-transform: uppercase;
+}

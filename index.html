@@ -7,16 +7,109 @@
   <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<main class="go">
+
+<header class="menu">
+      <img class="menu__img" src="menu/img/logo.svg" alt="GO">
+
+      <nav>
+        <li class="menu__list">
+          <ul class="menu__item">
+            ЗАЛЫ
+          </ul>
+          <ul class="menu__item">
+            О НАС
+          </ul>
+          <ul class="menu__item">
+            БРОНЬ
+          </ul>
+          <ul class="menu__item">
+            ОТЗЫВЫ
+          </ul>
+          <ul class="menu__item">
+            КОНТАКТЫ
+          </ul>
+        </li>
+      </nav>
+
+      <div class="menu__checkbox">
+        <p class="menu__order">Заказать звонок</p>
+      </div>
+</header>
+
+<main>
   <section class="banner">
     <div class="container">
 
-    <h1 class="banner__start-word">
-      GAME OVER
-    </h1>
-    <p class="banner__text">
-      Новый формат игр и отдыха
-    </p>
+      <h1 class="banner__start-word">
+        GAME OVER
+      </h1>
+      <p class="banner__text">
+        Новый формат игр и отдыха
+      </p>
+
+      <div class="banner__blocks">
+        <div class="banner__block1">
+          <p class="banner__1tittle1">4</p>
+          <p class="banner__1tittle2">Тематических
+            зала
+          </p>
+        </div>
+
+        <div class="banner__block2">
+          <p class="banner__2tittle1">new</p>
+          <p class="banner__2tittle2">Новейшая
+            аппаратура
+          </p>
+        </div>
+      </div>
+
+      <div class="banner__checkbox">
+        <p class="banner__p-checkbox">
+          Забронировать
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="happy">
+    <div class="container">
+      <h2 class="happy__text">У нас есть все для классного
+        отдыха с друзьями!</h2>
+
+      <ul class="happy__list">
+        <li class="happy__item happy__item_1">
+          <p class="happy__p">
+            VR очки
+          </p>
+        </li>
+        <li class="happy__item happy__item_2">
+          <p class="happy__p">
+            Аудио-система 5.1
+            с отличным звуком
+          </p>
+        </li>
+        <li class="happy__item happy__item_3">
+          <p class="happy__p">
+            Караоке (4 микрофона)
+          </p>
+        </li>
+        <li class="happy__item happy__item_4">
+          <p class="happy__p">
+            Настольные игры
+          </p>
+        </li>
+        <li class="happy__item happy__item_5">
+          <p class="happy__p">
+            Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko
+          </p>
+        </li>
+        <li class="happy__item happy__item_6">
+          <p class="happy__p">
+            РlаyStаtiоn 5
+          </p>
+        </li>
+      </ul>
 
     </div>
   </section>
@@ -43,6 +136,60 @@
         </div>
 
     </div>
+  </section>
+
+  <section class="form">
+
+    <h2 class="form__title">
+      Забронировать зал просто
+    </h2>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+      <fieldset>
+        Выбрать зал
+        <select>
+          <option value="80's">80's vibes</option>
+          <option value="SW">Star Wars</option>
+          <option value="Ww">Wild west</option>
+          <option value="Nn">Neon style</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Собери набор развлечений</legend>
+        <fieldset>
+          <legend>Приставка</legend>
+          <input type="radio" name="gamepad" value="PS5">Play Station 5
+          <input type="radio" name="gamepad" value="SMD">Sega Mega Drive
+          <input type="radio" name="gamepad" value="X-BoxOS">X-box One S
+          <input type="radio" name="gamepad" value="Dendy">Dendy
+        </fieldset>
+        <fieldset>
+          <legend>Настольные игры</legend>
+          <input type="checkbox" name="games" value="Jenga">Jenga
+          <input type="checkbox" name="games" value="Monopoly">Monopoly
+          <input type="checkbox" name="games" value="Манчкин">Манчкин
+          <input type="checkbox" name="games" value="Alias">Alias
+        </fieldset>
+        <fieldset>
+          <legend>Дополнительно</legend>
+          <input type="checkbox" name="additionally" value="karaoke">Караоке
+          <input type="checkbox" name="additionally" value="VR">VR (Очки виртуальной реальности)
+        </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Выбери дату и время</legend>
+        Дата<sup>*</sup> <input type="date" required name="date"> Время<sup>*</sup> <input name="time" type="time" required> <br>
+        <br>
+        Количесвто человек<sup>*</sup> <input type="number" name="number" required> <br>
+        <br>
+        Имя<sup>*</sup> <input type="text" name="name" required> Фамилия<sup>*</sup> <input type="text" name="surname" required> <br>
+        <br>
+        Номер телефона<sup>*</sup> <input type = "tel" name="tel" required pattern = "^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" title="+7-___-___-__-__">
+        <input type = "checkbox" name="iam18" required>Я старше 18 лет
+      </fieldset>
+      <br>
+      <input type = "submit" name="submit" value = "Забронировать">
+      <input type = "checkbox" name="checkbox" required>Согласен на обработку персональных данных<br>
+    </form>
   </section>
 
   <section class="about">
@@ -171,7 +318,11 @@
 <footer>
   <section class="contacts">
     <div class="container">
+
       <h2 class="contacts__text">Контакты</h2>
+
+      <div class="contacts__blocks">
+        <div class="contacts__blocks1">
       <ul class="contacts__block">
         <li class="contacts__block-adres">
           <p class="contacts__link contacts__link_adres contacts__link_p">
@@ -208,6 +359,26 @@
           </a>
         </li>
       </ul>
+        </div>
+
+        <div class="contacts__blocks2">
+          <img src="contacts/img/map.png" alt="map">
+        </div>
+      </div>
+
+      <article class="contacts__footer">
+        <p>
+          © Game Over, 2022
+        </p>
+        <div class="contacts__fot-text">
+          <p>
+            Design by Anastasia Ilina
+          </p>
+          <p>
+            ilina9825@gmail.com
+          </p>
+        </div>
+      </article>
     </div>
   </section>
 </footer>

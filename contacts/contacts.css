@@ -1,5 +1,6 @@
 section.contacts {
   padding-bottom: 100px;
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
 .contacts__text {
@@ -99,4 +100,29 @@ section.contacts {
   background-repeat: no-repeat;
 }
 
+.contacts__blocks {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.contacts__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.contacts__fot-text {
+  display: block;
+  text-align: right;
+}
+
+.contacts__blocks {
+  margin-bottom: 150px;
+}
