@@ -1,5 +1,5 @@
-nav {
-  padding: 50px 0;
+header {
+  margin-top: 50px;
 }
 
 .menu {
@@ -9,6 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 25px;
 }
 
 .menu__list {
@@ -39,8 +40,9 @@ nav {
   border: 3px solid #CD06FF;
   box-sizing: border-box;
   border-radius: 10px;
+  background-color: transparent;
 
-  padding: 12px 32px;
+  padding: 10px 32px;
 }
 
 .menu__order {
@@ -51,4 +53,6 @@ nav {
   /* identical to box height, or 136% */
 
   text-transform: uppercase;
+
+  color: white;
 }

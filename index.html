@@ -8,7 +8,8 @@
 </head>
 <body>
 
-<header class="menu">
+<header>
+  <div class="menu">
       <img class="menu__img" src="menu/img/logo.svg" alt="GO">
 
       <nav>
@@ -31,9 +32,10 @@
         </li>
       </nav>
 
-      <div class="menu__checkbox">
-        <p class="menu__order">Заказать звонок</p>
-      </div>
+      <button class="menu__checkbox" type="button">
+        <a class="menu__order" href="https://vk.com">Заказать звонок</a>
+      </button>
+  </div>
 </header>
 
 <main>
@@ -63,11 +65,11 @@
         </div>
       </div>
 
-      <div class="banner__checkbox">
-        <p class="banner__p-checkbox">
+      <button class="banner__checkbox">
+        <a href="https://vk.com" class="banner__p-checkbox">
           Забронировать
-        </p>
-      </div>
+        </a>
+      </button>
 
     </div>
   </section>
@@ -146,12 +148,12 @@
     <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
       <fieldset>
         Выбрать зал
-        <select>
-          <option value="80's">80's vibes</option>
-          <option value="SW">Star Wars</option>
-          <option value="Ww">Wild west</option>
-          <option value="Nn">Neon style</option>
-        </select>
+        <label>
+            <input class="form__item" type="radio" value="80's">80's vibes
+            <input class="form__item" type="radio" value="SW">Star Wars
+            <input class="form__item" type="radio" value="Ww">Wild west
+            <input class="form__item" type="radio" value="Nn">Neon style
+        </label>
       </fieldset>
       <fieldset>
         <legend>Собери набор развлечений</legend>
@@ -366,7 +368,7 @@
         </div>
       </div>
 
-      <article class="contacts__footer">
+      <div class="contacts__footer">
         <p>
           © Game Over, 2022
         </p>
@@ -378,7 +380,7 @@
             ilina9825@gmail.com
           </p>
         </div>
-      </article>
+      </div>
     </div>
   </section>
 </footer>

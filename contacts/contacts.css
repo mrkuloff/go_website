@@ -51,8 +51,14 @@ section.contacts {
 }
 
 .contacts__mes{
+  height: 40px;
+  width: 40px;
   display: inline;
   margin-right: 28px;
+}
+
+.contacts__mes:last-child{
+  margin-right: 0;
 }
 
 .contacts__block {

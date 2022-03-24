@@ -1,8 +1,7 @@
 .banner{
   position: relative;
-  height: 823px;
   background-color: #1B1A1B;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 .banner__start-word{
@@ -35,7 +34,7 @@
 }
 
 .banner__text{
-  padding-bottom: 65px;
+  margin-bottom: 65px;
 
   padding-left: 110px;
 
@@ -102,13 +101,28 @@
 }
 
 .banner__checkbox {
+  position: relative;
+
   width: 374px;
   height: 80px;
 
   background: #6C0287;
+  border-color: #6C0287;
   border-radius: 10px;
 
   padding: 25px 69px;
+
+  margin-bottom: 154px;
+}
+
+.banner__checkbox:after {
+  content: url("../banner/img/circle.svg");
+  width: 97px;
+  height: 97px;
+
+  position: absolute;
+  left: 529px;
+  top: 33px;
 }
 
 .banner__p-checkbox {
@@ -119,6 +133,7 @@
   /* identical to box height, or 115% */
 
   text-transform: uppercase;
+  color: white;
 }
 
 .banner__blocks {
