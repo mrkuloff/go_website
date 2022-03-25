@@ -146,51 +146,89 @@
       Забронировать зал просто
     </h2>
     <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
-      <fieldset>
-        Выбрать зал
-        <label>
-            <input class="form__item" type="radio" value="80's">80's vibes
-            <input class="form__item" type="radio" value="SW">Star Wars
-            <input class="form__item" type="radio" value="Ww">Wild west
-            <input class="form__item" type="radio" value="Nn">Neon style
+      <h3 class="form__main-text">Выбрать зал</h3>
+      <div class="form__list-halls">
+        <label class="form__item" for="halls1">
+            <input type="radio" name="halls" id="halls1" value="80's">80's vibes
         </label>
-      </fieldset>
-      <fieldset>
-        <legend>Собери набор развлечений</legend>
-        <fieldset>
-          <legend>Приставка</legend>
-          <input type="radio" name="gamepad" value="PS5">Play Station 5
-          <input type="radio" name="gamepad" value="SMD">Sega Mega Drive
-          <input type="radio" name="gamepad" value="X-BoxOS">X-box One S
-          <input type="radio" name="gamepad" value="Dendy">Dendy
-        </fieldset>
-        <fieldset>
-          <legend>Настольные игры</legend>
-          <input type="checkbox" name="games" value="Jenga">Jenga
-          <input type="checkbox" name="games" value="Monopoly">Monopoly
-          <input type="checkbox" name="games" value="Манчкин">Манчкин
-          <input type="checkbox" name="games" value="Alias">Alias
-        </fieldset>
-        <fieldset>
-          <legend>Дополнительно</legend>
-          <input type="checkbox" name="additionally" value="karaoke">Караоке
-          <input type="checkbox" name="additionally" value="VR">VR (Очки виртуальной реальности)
-        </fieldset>
-      </fieldset>
-      <fieldset>
-        <legend>Выбери дату и время</legend>
-        Дата<sup>*</sup> <input type="date" required name="date"> Время<sup>*</sup> <input name="time" type="time" required> <br>
-        <br>
-        Количесвто человек<sup>*</sup> <input type="number" name="number" required> <br>
-        <br>
+        <label class="form__item" for="halls2">
+            <input type="radio" name="halls" id="halls2" value="SW">Star Wars
+        </label>
+        <label class="form__item" for="halls3">
+            <input type="radio" name="halls" id="halls3" value="Ww">Wild west
+        </label>
+        <label class="form__item" for="halls4">
+            <input type="radio" name="halls" id="halls4" value="Nn">Neon style
+        </label>
+      </div>
+        <h3 class="form__main-text">Собери набор развлечений</h3>
+
+      <div class="form__main-item">
+        <div class="form__list-pr">
+          <h3 class="form__text-pr">Приставка</h3>
+          <label class="form__item-pr" for="pr1">
+            <input type="radio" name="gamepad" id="pr1" value="PS5">Play Station 5
+          </label>
+          <label class="form__item-pr" for="pr2">
+            <input type="radio" name="gamepad" id="pr2" value="SMD">Sega Mega Drive
+          </label>
+          <label class="form__item-pr" for="pr3">
+            <input type="radio" name="gamepad" id="pr3" value="X-BoxOS">X-box One S
+          </label>
+          <label class="form__item-pr" for="pr4">
+            <input type="radio" name="gamepad" id="pr4" value="Dendy">Dendy
+          </label>
+        </div>
+
+      <div class="form__list-pr">
+        <h3 class="form__text-pr">Настольные игры</h3>
+        <label class="form__item-pr" for="g1">
+          <input type="checkbox" name="games" id="g1" value="Jenga">Jenga
+        </label>
+        <label class="form__item-pr" for="g2">
+          <input type="checkbox" name="games" id="g2" value="Monopoly">Monopoly
+        </label>
+        <label class="form__item-pr" for="g3">
+          <input type="checkbox" name="games" id="g3" value="Манчкин">Манчкин
+        </label>
+        <label class="form__item-pr" for="g4">
+          <input type="checkbox" name="games" id="g4" value="Alias">Alias
+        </label>
+      </div>
+
+      <div class="form__list-pr">
+        <h3 class="form__text-pr">Дополнительно</h3>
+        <label class="form__item-pr" for="a1">
+          <input type="checkbox" name="additionally" id="a1" value="karaoke">Караоке
+        </label>
+        <label class="form__item-pr" for="a2">
+          <input type="checkbox" name="additionally" id="a2" value="VR">VR (Очки виртуальной реальности)
+        </label>
+      </div>
+      </div>
+
+      <h3 class="form__main-text">Выбери дату и время</h3>
+      <div class="form__date-time">
+      <label class="form__list-date" for="date">
+        <input class="form__item-date" type="date" id="date" required name="date">
+      </label>
+      <label class="form__list-date" for="time">
+        <input class="form__item-time" name="time" type="time" id="time" required>
+      </label>
+      <label class="form__list-hm" for="howmuch">
+        <input class="form__item-hm" type="number" name="number" id="howmuch" required>
+      </label>
+      </div>
+
+
+
         Имя<sup>*</sup> <input type="text" name="name" required> Фамилия<sup>*</sup> <input type="text" name="surname" required> <br>
         <br>
         Номер телефона<sup>*</sup> <input type = "tel" name="tel" required pattern = "^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" title="+7-___-___-__-__">
         <input type = "checkbox" name="iam18" required>Я старше 18 лет
-      </fieldset>
+
       <br>
       <input type = "submit" name="submit" value = "Забронировать">
-      <input type = "checkbox" name="checkbox" required>Согласен на обработку персональных данных<br>
     </form>
   </section>
 

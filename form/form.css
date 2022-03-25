@@ -14,3 +14,98 @@
 
   margin-bottom: 40px;
 }
+
+.form__main-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+
+  text-align: center;
+
+  margin-bottom: 47px;
+}
+
+.form__list-halls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 60px;
+
+  margin-bottom: 60px;
+}
+
+.form__item > input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form__item {
+  padding-top: 7px;
+  padding-left: 6px;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 250px;
+  height: 55px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.form__list-pr {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-bottom: 60px;
+}
+
+.form__item-pr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.form__text-pr {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.form__main-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 100px;
+}
+
+.form__date-time {
+  display: inline-block;
+}
+
+.form__list-date {
+  width: 134px;
+  height: 52px;
+
+  margin-right: 24px;
+}
+
+.form__list-hm {
+  width: 300px;
+  height: 52px;
+}
