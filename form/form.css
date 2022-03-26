@@ -44,6 +44,8 @@
 }
 
 .form__item {
+  cursor: pointer;
+
   padding-top: 7px;
   padding-left: 6px;
 
@@ -168,6 +170,8 @@
   text-transform: uppercase;
 
   color: #6C0287;
+
+  cursor: pointer;
 }
 
 .form__submits {

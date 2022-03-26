@@ -45,6 +45,8 @@
 }
 
 .banner__blocks {
+  position: relative;
+
   display: flex;
   justify-content: flex-start;
   gap: 40px;
@@ -100,9 +102,19 @@
   text-align: center;
 }
 
-.banner__checkbox {
-  position: relative;
 
+.banner__blocks:after {
+  content: url("../banner/img/circle.svg");
+  width: 97px;
+  height: 97px;
+
+  position: absolute;
+  left: 534px;
+  top: 410px;
+}
+
+.banner__p-checkbox {
+  display: inline-block;
   width: 374px;
   height: 80px;
 
@@ -113,19 +125,7 @@
   padding: 25px 69px;
 
   margin-bottom: 154px;
-}
 
-.banner__checkbox:after {
-  content: url("../banner/img/circle.svg");
-  width: 97px;
-  height: 97px;
-
-  position: absolute;
-  left: 529px;
-  top: 33px;
-}
-
-.banner__p-checkbox {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
