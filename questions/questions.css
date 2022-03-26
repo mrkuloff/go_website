@@ -50,7 +50,7 @@
   margin-top: -10px;
 }
 
-.questions__block-white::after:active {
+.questions__block-white::after:active , .questions__block-white::after:focus {
   content: url("../questions/img/white2.svg");
   vertical-align: middle;
   float: right;
@@ -64,7 +64,7 @@
   margin-top: -10px;
 }
 
-.questions__block-purple::after:active {
+.questions__block-purple::after:active , .questions__block-white::after:focus {
   content: url("../questions/img/purple2.svg");
   vertical-align: middle;
   float: right;

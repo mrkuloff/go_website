@@ -112,7 +112,7 @@
   padding-right: 5px;
 }
 
-.form__style:focus {
+.form__style:focus , .form__style:active , .form__style:hover {
   width: 33px;
   height: 33px;
   border: 1px solid #CD06FF;
@@ -173,7 +173,10 @@
   height: 52px;
 }
 
-.form__block:hover , .form__item-date:hover , .form__item-hm:hover , .form__blocks:hover {
+.form__block:hover , .form__item-date:hover , .form__item-hm:hover , .form__blocks:hover ,
+.form__block:active , .form__item-date:active , .form__item-hm:active , .form__blocks:active ,
+.form__block:focus , .form__item-date:focus , .form__item-hm:focus , .form__blocks:focus
+{
   background: #FFFFFF;
   border: 3px solid #6C0287;
   box-sizing: border-box;
