@@ -98,14 +98,22 @@
   display: inline-block;
 }
 
-.form__list-date {
+.form__item-date {
   width: 134px;
   height: 52px;
 
   margin-right: 24px;
+  margin-bottom: 36px;
+}
+
+.form__item-hm {
+  width: 300px;
+  height: 52px;
 }
 
 .form__list-hm {
   width: 300px;
   height: 52px;
+
+  display: block;
 }
