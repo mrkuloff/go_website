@@ -102,8 +102,11 @@
   width: 134px;
   height: 52px;
 
-  margin-right: 24px;
   margin-bottom: 36px;
+}
+
+.form__list-date2 {
+  margin-right: 24px;
 }
 
 .form__item-hm {
@@ -116,4 +119,51 @@
   height: 52px;
 
   display: block;
+}
+
+.forms__span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form__block {
+  width: 280px;
+  height: 52px;
+}
+
+.form__block , .form__blocks {
+  margin-bottom: 14px;
+}
+
+.form__some-blocks {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.form__blocks {
+  width: 300px;
+  height: 52px;
+}
+
+.form__contacts , .form__name {
+  margin-top: -22px;
+}
+
+.form__submit {
+  background: #FFFFFF;
+  border-radius: 10px;
+  background-size: 300px 60px;
+  width: 300px;
+  height: 60px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height, or 127% */
+
+  text-transform: uppercase;
+
+  color: #6C0287;
 }
