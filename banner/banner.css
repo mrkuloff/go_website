@@ -102,8 +102,21 @@
   text-align: center;
 }
 
+.banner__blocks::after:hover {
+  content: url("../banner/img/circle1.svg");
+}
 
-.banner__blocks:after {
+.banner__blocks::after:active {
+  content: url("../banner/img/circle2.svg");
+}
+
+.banner__blocks::after:focus {
+  content: url("../banner/img/circle3.svg");
+}
+
+
+.banner__blocks::after {
+  cursor: pointer;
   content: url("../banner/img/circle.svg");
   width: 97px;
   height: 97px;
@@ -134,6 +147,18 @@
 
   text-transform: uppercase;
   color: white;
+}
+
+.banner__p-checkbox:hover {
+  background: #840AA3;
+}
+
+.banner__p-checkbox:focus {
+  background: #840AA3;
+}
+
+.banner__p-checkbox:active {
+  background: #640AA3;
 }
 
 .banner__blocks {

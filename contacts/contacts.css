@@ -132,3 +132,15 @@ section.contacts {
 .contacts__blocks {
   margin-bottom: 150px;
 }
+
+.contacts__link_pattern:hover {
+  background:  #EADEED;
+}
+
+.contacts__link_pattern:active {
+  background: #CD06FF;
+}
+
+.contacts__link_pattern:focus {
+  background: #EADEED;
+}

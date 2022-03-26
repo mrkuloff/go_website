@@ -66,6 +66,22 @@
   color: #000000;
 }
 
+.form__item:hover {
+  background: #EADEED;
+  border: 3px solid #640AA3;
+  box-sizing: border-box;
+}
+
+.form__item:active {
+  background: #EADEED;
+}
+
+.form__item:focus {
+  background: #FFFFFF;
+  border: 3px solid #640AA3;
+  box-sizing: border-box;
+}
+
 .form__list-pr {
   display: flex;
   flex-wrap: wrap;
@@ -80,6 +96,28 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
+}
+
+.form__style {
+  width: 27px;
+  height: 27px;
+  background: #FFFFFF;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  vertical-align: middle;
+
+  padding-right: 5px;
+}
+
+.form__style:focus {
+  width: 33px;
+  height: 33px;
+  border: 1px solid #CD06FF;
+  box-sizing: border-box;
+  background: #FFFFFF;
 }
 
 .form__text-pr {
@@ -108,6 +146,7 @@
   margin-bottom: 36px;
 }
 
+
 .form__list-date2 {
   margin-right: 24px;
 }
@@ -132,6 +171,12 @@
 .form__block {
   width: 280px;
   height: 52px;
+}
+
+.form__block:hover , .form__item-date:hover , .form__item-hm:hover , .form__blocks:hover {
+  background: #FFFFFF;
+  border: 3px solid #6C0287;
+  box-sizing: border-box;
 }
 
 .form__block , .form__blocks {
@@ -172,6 +217,22 @@
   color: #6C0287;
 
   cursor: pointer;
+}
+
+.form__submit:hover {
+  background: #EADEED;
+  border: 3px solid #6C0287;
+  box-sizing: border-box;
+}
+
+.form__submit:active {
+  background: #EADEED;
+}
+
+.form__submit:focus {
+  background: #FFFFFF;
+  border: 3px solid #6C0287;
+  box-sizing: border-box;
 }
 
 .form__submits {

@@ -59,3 +59,16 @@ header {
 
   color: white;
 }
+
+.menu__order:hover {
+  background: #6C0287;
+  border: 3px solid #6C0287;
+}
+
+.menu__order:active {
+  background: #640AA3;
+}
+
+.menu__order:focus {
+  background: #6C0287;
+}
