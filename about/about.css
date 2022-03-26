@@ -125,3 +125,7 @@
 .about__block{
   display: inline-block;
 }
+
+.about {
+  padding-top: 100px;
+}

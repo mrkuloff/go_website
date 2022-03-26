@@ -1,5 +1,6 @@
 .form {
   background: #440F51;
+  padding-bottom: 80px;
 }
 
 .form__title {
@@ -30,7 +31,7 @@
 .form__list-halls {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 60px;
 
   margin-bottom: 60px;
@@ -90,7 +91,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 100px;
 }
 
@@ -148,6 +149,7 @@
 
 .form__contacts , .form__name {
   margin-top: -22px;
+  margin-bottom: 40px;
 }
 
 .form__submit {
@@ -167,3 +169,13 @@
 
   color: #6C0287;
 }
+
+.form__submits {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-right: 90px;
+}
+
+
