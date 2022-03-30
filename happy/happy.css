@@ -38,6 +38,11 @@
   height: 228px;
 }
 
+.happy__item:hover , .happy__item:focus , .happy__item:active {
+  transform: scale(1.1);
+  transition-duration: 5s;
+}
+
 .happy__item_1 {
   background-image: url("../happy/img/1.png");
 }
