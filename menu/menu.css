@@ -1,5 +1,6 @@
 header {
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 .menu {
@@ -9,11 +10,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 25px;
 }
 
 .menu__list {
   list-style: none;
+}
+
+.menu__item:hover {
+  color: #CD06FF;
 }
 
 .menu__item {

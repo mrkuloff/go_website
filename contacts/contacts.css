@@ -70,6 +70,18 @@ section.contacts {
   padding-top: 48px;
 }
 
+.contacts__mes > a:hover {
+  background:  #EADEED;
+}
+
+.contacts__mes > a:active {
+  background: #CD06FF;
+}
+
+.contacts__mes > a:focus {
+  background: #EADEED;
+}
+
 .contacts__link_inst {
   display: inline-block;
   width: 48px;
@@ -133,14 +145,7 @@ section.contacts {
   margin-bottom: 150px;
 }
 
-.contacts__link_pattern:hover {
-  background:  #EADEED;
-}
 
-.contacts__link_pattern:active {
-  background: #CD06FF;
-}
-
-.contacts__link_pattern:focus {
-  background: #EADEED;
+.contacts__mailto:focus , .contacts__mailto:hover , .contacts__mailto:active {
+  color: #CD06FF;
 }

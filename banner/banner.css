@@ -102,28 +102,28 @@
   text-align: center;
 }
 
-.banner__blocks::after:hover {
+.banner__circle:hover {
   content: url("../banner/img/circle1.svg");
 }
 
-.banner__blocks::after:active {
+.banner__circle:active {
   content: url("../banner/img/circle2.svg");
 }
 
-.banner__blocks::after:focus {
+.banner__circle:focus {
   content: url("../banner/img/circle3.svg");
 }
 
 
-.banner__blocks::after {
+.banner__circle {
   cursor: pointer;
   content: url("../banner/img/circle.svg");
   width: 97px;
   height: 97px;
 
   position: absolute;
-  left: 534px;
-  top: 410px;
+  left: 515px;
+  top: 429px;
 }
 
 .banner__p-checkbox {

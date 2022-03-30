@@ -99,6 +99,8 @@
 }
 
 .form__style {
+  -webkit-appearance: button;
+
   width: 27px;
   height: 27px;
   background: #FFFFFF;
