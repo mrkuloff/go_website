@@ -1,0 +1,9 @@
+:root {
+  --color-1: #CD06FF;
+  --color-2: #6C0287;
+  --color-2-black: #440F51;
+  --gradient: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+  --color-3-hover-focus: #840AA3;
+  --color-4-hover-focus: #640AA3;
+
+}

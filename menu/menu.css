@@ -17,7 +17,7 @@ header {
 }
 
 .menu__item:hover {
-  color: #CD06FF;
+  color: var(--color-1);
 }
 
 .menu__item {
@@ -65,14 +65,14 @@ header {
 }
 
 .menu__order:hover {
-  background: #6C0287;
-  border: 3px solid #6C0287;
+  background: var(--color-2);
+  border: 3px solid var(--color-2);
 }
 
 .menu__order:active {
-  background: #640AA3;
+  background: var(--color-3-hover-focus);
 }
 
 .menu__order:focus {
-  background: #6C0287;
+  background: var(--color-2);
 }

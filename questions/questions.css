@@ -23,7 +23,7 @@
 }
 
 .questions__block-purple{
-  background: #440F51;
+  background: var(--color-2-black);
 }
 
 .questions__text{

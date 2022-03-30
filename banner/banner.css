@@ -63,7 +63,7 @@
   line-height: 141px;
   /* identical to box height */
 
-  color: #CD06FF;
+  color: var(--color-1);
 
   text-align: center;
 }
@@ -91,7 +91,7 @@
 
   font-variant: small-caps;
 
-  color: #CD06FF;
+  color: var(--color-1);
 }
 
 .banner__2tittle2 {
@@ -131,8 +131,8 @@
   width: 374px;
   height: 80px;
 
-  background: #6C0287;
-  border-color: #6C0287;
+  background: var(--color-2);
+  border-color: var(--color-2);
   border-radius: 10px;
 
   padding: 25px 69px;
@@ -150,15 +150,15 @@
 }
 
 .banner__p-checkbox:hover {
-  background: #840AA3;
+  background: var(--color-3-hover-focus);
 }
 
 .banner__p-checkbox:focus {
-  background: #840AA3;
+  background: var(--color-3-hover-focus);
 }
 
 .banner__p-checkbox:active {
-  background: #640AA3;
+  background: var(--color-4-hover-focus);
 }
 
 .banner__blocks {

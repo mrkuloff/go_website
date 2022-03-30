@@ -1,5 +1,5 @@
 .form {
-  background: #440F51;
+  background: var(--color-2-black);
   padding-bottom: 80px;
 }
 
@@ -68,7 +68,7 @@
 
 .form__item:hover {
   background: #EADEED;
-  border: 3px solid #640AA3;
+  border: 3px solid var(--color-4-hover-focus);
   box-sizing: border-box;
 }
 
@@ -78,7 +78,7 @@
 
 .form__item:focus {
   background: #FFFFFF;
-  border: 3px solid #640AA3;
+  border: 3px solid var(--color-4-hover-focus);
   box-sizing: border-box;
 }
 
@@ -117,7 +117,7 @@
 .form__style:focus , .form__style:active , .form__style:hover {
   width: 33px;
   height: 33px;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--color-1);
   box-sizing: border-box;
   background: #FFFFFF;
 }
@@ -180,7 +180,7 @@
 .form__block:focus , .form__item-date:focus , .form__item-hm:focus , .form__blocks:focus
 {
   background: #FFFFFF;
-  border: 3px solid #6C0287;
+  border: 3px solid var(--color-2);
   box-sizing: border-box;
 }
 
@@ -219,14 +219,14 @@
 
   text-transform: uppercase;
 
-  color: #6C0287;
+  color: var(--color-2);
 
   cursor: pointer;
 }
 
 .form__submit:hover {
   background: #EADEED;
-  border: 3px solid #6C0287;
+  border: 3px solid var(--color-2);
   box-sizing: border-box;
 }
 
@@ -236,7 +236,7 @@
 
 .form__submit:focus {
   background: #FFFFFF;
-  border: 3px solid #6C0287;
+  border: 3px solid var(--color-2);
   box-sizing: border-box;
 }
 
