@@ -40,7 +40,7 @@
 
 .happy__item:hover , .happy__item:focus , .happy__item:active {
   transform: scale(1.1);
-  transition-duration: 5s;
+  transition-duration: 250ms;
 }
 
 .happy__item_1 {
