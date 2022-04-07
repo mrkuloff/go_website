@@ -122,6 +122,26 @@
   background: #FFFFFF;
 }
 
+.form__style:checked:before {
+  background: var(--color-1);
+}
+
+.form__style:not(:disabled):active {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+
+/* Добавил стиля для inputov checked. Не совсем работает */
+.form__style:not(:disabled):active+.form__item-pr::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+
+.form__style {
+  margin-right: 12px;
+}
+
+
 .form__text-pr {
   font-style: normal;
   font-weight: 700;

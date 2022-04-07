@@ -65,30 +65,26 @@ section.contacts {
   margin-bottom: 30px;
 }
 
-.contacts__mes > a {
-  padding-left: 48px;
-  padding-top: 48px;
-}
-
-.contacts__mes > a:hover {
-  background:  #EADEED;
-}
-
-.contacts__mes > a:active {
-  background: var(--color-1);
-}
-
-.contacts__mes > a:focus {
-  background: #EADEED;
-}
-
 .contacts__link_inst {
-  display: inline-block;
   width: 48px;
   height: 48px;
   background-size: 48px 48px;
-  background-image: url("../contacts/img/entypo-social_instagram-with-circle.svg");
-  background-repeat: no-repeat;
+  display: inline-block;
+  fill: #FFFFFF;
+}
+
+.contacts__link_inst:hover {
+  color: #EADEED;
+}
+
+.contacts__link_inst:active {
+  color: #CD06FF;
+}
+
+.contacts__link_inst:focus {
+  color: #EADEED;
+  border: 1px solid #CD06FF;
+  box-sizing: border-box;
 }
 
 .contacts__link_vk {
@@ -96,8 +92,22 @@ section.contacts {
   width: 48px;
   height: 48px;
   background-size: 48px 48px;
-  background-image: url("../contacts/img/entypo-social_vk-with-circle.svg");
   background-repeat: no-repeat;
+  fill: #FFFFFF;
+}
+
+.contacts__link_vk:hover {
+  color: #EADEED;
+}
+
+.contacts__link_vk:active {
+  color: #CD06FF;
+}
+
+.contacts__link_vk:focus {
+  color: #EADEED;
+  border: 1px solid #CD06FF;
+  box-sizing: border-box;
 }
 
 .contacts__link_fb {
@@ -105,8 +115,36 @@ section.contacts {
   width: 48px;
   height: 48px;
   background-size: 48px 48px;
-  background-image: url("../contacts/img/akar-icons_facebook-fill.svg");
+  fill: #FFFFFF;
   background-repeat: no-repeat;
+}
+
+.contacts__link_fb:hover {
+  color: #EADEED;
+}
+
+.contacts__link_fb:active {
+  color: #CD06FF;
+}
+
+.contacts__link_fb:focus {
+  color: #EADEED;
+  border: 1px solid #CD06FF;
+  box-sizing: border-box;
+}
+
+.contacts__link_tg:hover {
+  color: #EADEED;
+}
+
+.contacts__link_tg:active {
+  color: #CD06FF;
+}
+
+.contacts__link_tg:focus {
+  color: #EADEED;
+  border: 1px solid #CD06FF;
+  box-sizing: border-box;
 }
 
 .contacts__link_tg {
@@ -114,7 +152,7 @@ section.contacts {
   width: 48px;
   height: 48px;
   background-size: 48px 48px;
-  background-image: url("../contacts/img/bi_telegram.svg");
+  fill: #FFFFFF;
   background-repeat: no-repeat;
 }
 
@@ -146,6 +184,7 @@ section.contacts {
 }
 
 
-.contacts__mailto:focus , .contacts__mailto:hover , .contacts__mailto:active {
+.contacts__mailto:focus , .contacts__mailto:hover , .contacts__mailto:active,
+contacts__link_a:focus, .contacts__link_a:hover, .contacts__link_a:active{
   color: var(--color-1);
 }
