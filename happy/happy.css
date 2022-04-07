@@ -48,8 +48,8 @@
 }
 
 .happy__item_2 {
-  margin-top: 69px;
   background-image: url("../happy/img/2.png");
+  transform: translate(0, 70px);
 }
 .happy__item_3 {
   background-image: url("../happy/img/3.png");
@@ -58,10 +58,13 @@
   background-image: url("../happy/img/4.png");
 }
 .happy__item_5 {
-  margin-top: 9px;
   background-image: url("../happy/img/5.png");
+  transform: translate(0, 70px);
 }
 .happy__item_6 {
   background-image: url("../happy/img/6.png");
 }
 
+.happy {
+  padding-bottom: 120px;
+}
