@@ -74,15 +74,15 @@ section.contacts {
 }
 
 .contacts__link_inst:hover {
-  color: #EADEED;
+  fill: #EADEED;
 }
 
 .contacts__link_inst:active {
-  color: #CD06FF;
+  fill: #CD06FF;
 }
 
 .contacts__link_inst:focus {
-  color: #EADEED;
+  fill: #EADEED;
   border: 1px solid #CD06FF;
   box-sizing: border-box;
 }
@@ -97,15 +97,15 @@ section.contacts {
 }
 
 .contacts__link_vk:hover {
-  color: #EADEED;
+  fill: #EADEED;
 }
 
 .contacts__link_vk:active {
-  color: #CD06FF;
+  fill: #CD06FF;
 }
 
 .contacts__link_vk:focus {
-  color: #EADEED;
+  fill: #EADEED;
   border: 1px solid #CD06FF;
   box-sizing: border-box;
 }
@@ -115,34 +115,34 @@ section.contacts {
   width: 48px;
   height: 48px;
   background-size: 48px 48px;
-  fill: #FFFFFF;
   background-repeat: no-repeat;
+  fill: #FFFFFF;
 }
 
 .contacts__link_fb:hover {
-  color: #EADEED;
+  fill: #EADEED;
 }
 
 .contacts__link_fb:active {
-  color: #CD06FF;
+  fill: #CD06FF;
 }
 
 .contacts__link_fb:focus {
-  color: #EADEED;
+  fill: #EADEED;
   border: 1px solid #CD06FF;
   box-sizing: border-box;
 }
 
 .contacts__link_tg:hover {
-  color: #EADEED;
+  fill: #EADEED;
 }
 
 .contacts__link_tg:active {
-  color: #CD06FF;
+  fill: #CD06FF;
 }
 
 .contacts__link_tg:focus {
-  color: #EADEED;
+  fill: #EADEED;
   border: 1px solid #CD06FF;
   box-sizing: border-box;
 }
@@ -185,6 +185,6 @@ section.contacts {
 
 
 .contacts__mailto:focus , .contacts__mailto:hover , .contacts__mailto:active,
-contacts__link_a:focus, .contacts__link_a:hover, .contacts__link_a:active{
+.contacts__link_a:focus, .contacts__link_a:hover, .contacts__link_a:active{
   color: var(--color-1);
 }
