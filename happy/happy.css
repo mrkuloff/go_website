@@ -43,26 +43,33 @@
   transition-duration: 250ms;
 }
 
-.happy__item_1 {
+.happy__item_1-img {
   background-image: url("../happy/img/1.png");
 }
 
-.happy__item_2 {
+.happy__item_2-img {
   background-image: url("../happy/img/2.png");
   transform: translate(0, 70px);
 }
-.happy__item_3 {
+.happy__item_3-img {
   background-image: url("../happy/img/3.png");
 }
-.happy__item_4 {
+.happy__item_4-img {
   background-image: url("../happy/img/4.png");
 }
-.happy__item_5 {
+.happy__item_5-img {
   background-image: url("../happy/img/5.png");
   transform: translate(0, 70px);
 }
-.happy__item_6 {
+.happy__item_6-img {
   background-image: url("../happy/img/6.png");
+}
+
+.happy__item_2:hover . .happy__item_5:hover ,
+.happy__item_2:focus , .happy__item_2:active ,
+.happy__item_5:focus , .happy__item_5:active {
+  transform: scale(1.1);
+  transition-duration: 250ms;
 }
 
 .happy {
