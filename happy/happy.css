@@ -68,7 +68,7 @@
 .happy__item_2:hover . .happy__item_5:hover ,
 .happy__item_2:focus , .happy__item_2:active ,
 .happy__item_5:focus , .happy__item_5:active {
-  transform: scale(1.1);
+  transform: scale(1.1) translate(0, 70px);
   transition-duration: 250ms;
 }
 
