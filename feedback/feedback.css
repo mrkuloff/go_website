@@ -31,18 +31,27 @@
 
 .feedback__block-1 {
   margin-right: 20px;
+  position: relative;
 }
 
 .feedback__img {
   margin-bottom: 11px;
 }
 
-.feedback__img-1 {
-  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%,
-  rgba(108, 2, 135, 0.5) 100%),url("../feedback/img/1.png") no-repeat;
-  border-radius: 50%;
-  width: 280px;
-  height: 280px;
+.feedback__block-1::before {
+  content: url("../feedback/img/left.svg");
+
+  position: absolute;
+  left: -85px;
+  top: 110px;
+}
+
+.feedback__block-1::after {
+  content: url("../feedback/img/right.svg");
+
+  position: absolute;
+  left: 1055px;
+  top: 110px;
 }
 
 .feedback__block-2 {

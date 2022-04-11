@@ -15,19 +15,19 @@
       <nav>
         <li class="menu__list">
           <ul class="menu__item">
-            ЗАЛЫ
+            <a href="#zal">ЗАЛЫ</a>
           </ul>
           <ul class="menu__item">
-            О НАС
+            <a href="#about">О НАС</a>
           </ul>
           <ul class="menu__item">
-            БРОНЬ
+            <a href="#order">БРОНЬ</a>
           </ul>
           <ul class="menu__item">
-            ОТЗЫВЫ
+            <a href="#feedback">ОТЗЫВЫ</a>
           </ul>
           <ul class="menu__item">
-            КОНТАКТЫ
+            <a href="#contacts">КОНТАКТЫ</a>
           </ul>
         </li>
       </nav>
@@ -62,17 +62,19 @@
             аппаратура
           </p>
         </div>
-        <a class="banner__circle" href="https://vk.com"></a>
+        <a class="banner__circle" href="#happy"></a>
       </div>
 
+      <form action="#order">
         <button class="banner__p-checkbox" alt="Забронирова">
           Забронировать
         </button>
+      </form>
 
     </div>
   </section>
 
-  <section class="happy">
+  <section class="happy" id="happy">
     <div class="container">
       <h2 class="happy__text">У нас есть все для классного
         отдыха с друзьями!</h2>
@@ -114,7 +116,7 @@
     </div>
   </section>
 
-  <section class="halls">
+  <section class="halls" id="zal">
     <div class="container">
 
       <h2 class="halls__text">Наши залы</h2>
@@ -138,7 +140,7 @@
     </div>
   </section>
 
-  <section class="form">
+  <section class="form" id="order">
     <div class="container">
 
     <h2 class="form__title">
@@ -257,7 +259,7 @@
     </div>
   </section>
 
-  <section class="about">
+  <section class="about" id="about">
     <div class="container">
 
       <h2 class="about__start-word">О нас</h2>
@@ -307,42 +309,20 @@
     </div>
   </section>
 
-  <section class="feedback">
+  <section class="feedback" id="feedback">
     <div class="container">
       <h2 class="feedback__start-word">Отзывы посетителей</h2>
 
       <ul class="feedback__main-block">
         <li class="feedback__blocks">
           <figure class="feedback__block feedback__block-1 feedback__block-text ">
-            <img class="feedback__img feedback__img-1" src="" alt="first person">
+            <img class="feedback__img feedback__img-1" src="feedback/img/person.png" alt="first person">
             <figcaption>
               Макс Самойлов
             </figcaption>
           </figure>
 
           <p class="feedback__block feedback__block-2">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
-        </li>
-
-        <li class="feedback__blocks">
-          <figure class="feedback__block feedback__block-1 feedback__block-text ">
-            <img class="feedback__img" src="feedback/img/2.png" alt="first person">
-            <figcaption>
-              Оксана Григорьева
-            </figcaption>
-          </figure>
-
-          <p class="feedback__block feedback__block-2">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
-        </li>
-
-        <li class="feedback__blocks">
-          <figure class="feedback__block feedback__block-1 feedback__block-text ">
-            <img class="feedback__img" src="feedback/img/3.png" alt="first person">
-            <figcaption>
-              Никита Ященко
-            </figcaption>
-          </figure>
-
-          <p class="feedback__block feedback__block-2">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса</p>
         </li>
     </ul>
 
@@ -387,7 +367,7 @@
 </main>
 
 <footer>
-  <section class="contacts">
+  <section class="contacts" id="contacts">
     <div class="container">
 
       <h2 class="contacts__text">Контакты</h2>

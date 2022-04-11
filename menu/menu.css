@@ -20,6 +20,8 @@ header {
   color: var(--color-1);
 }
 
+
+
 .menu__item {
   display: inline-block;
   padding-right: 40px;
@@ -75,4 +77,32 @@ header {
 
 .menu__order:focus {
   background: var(--color-2);
+}
+
+@media (max-width: 1024px) {
+  .menu__img {
+    width: 87px;
+    height: 55px;
+  }
+
+  .menu__item {
+    font-size: 18px;
+    line-height: 22px;
+
+    padding-right: 20px;
+  }
+
+  .menu__order {
+    font-size: 18px;
+    line-height: 24px;
+    width: 229px;
+    height: 45px;
+    padding: 10px 20px;
+  }
+
+    .menu {
+      max-width: 1024px;
+      gap: 79px;
+      padding: 60px 0;
+    }
 }

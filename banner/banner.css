@@ -164,3 +164,51 @@
 .banner__blocks {
   margin-bottom: 150px;
 }
+
+@media (max-width: 1024px) {
+  .banner__start-word {
+    font-size: 120px;
+  }
+
+  .banner__text {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .banner__1tittle1 {
+    font-size: 80px;
+    line-height: 113px;
+  }
+
+  .banner__2tittle1 {
+    font-size: 60px;
+    line-height: 85px;
+  }
+
+  .banner__1tittle2 .banner__2tittle2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .banner__circle {
+    width: 67px;
+    height: 67px;
+  }
+
+  .banner__p-checkbox {
+    font-size: 22px;
+    line-height: 30px;
+
+    width: 296px;
+    height: 64px;
+
+    padding: 17px 48px;
+  }
+
+  .banner__start-word::after {
+    content: url("../banner/img/man 1024.png");
+    width: 453px;
+    height: 520px;
+  }
+
+}
