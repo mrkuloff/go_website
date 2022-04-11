@@ -78,3 +78,34 @@
 
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .feedback__img {
+    width: 172px;
+    height: 172px;
+  }
+
+  .feedback__block-2 {
+    width: 515px;
+    height: 105px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .feedback__block-1::before {
+    content: url("../feedback/img/left 1024.svg");
+
+    position: absolute;
+    left: -85px;
+    top: 64px;
+  }
+
+  .feedback__block-1::after {
+    content: url("../feedback/img/right 1024.png");
+
+    position: absolute;
+    left: 853px;
+    top: 64px;
+  }
+}

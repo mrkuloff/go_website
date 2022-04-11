@@ -269,3 +269,31 @@
 }
 
 
+@media (max-width: 1024px) {
+  .form {
+    padding-top: 60px;
+  }
+
+  .form__title .form__main-text {
+    margin-bottom: 25px;
+  }
+
+  .form__item {
+    width: 180px;
+    height: 44px;
+
+    font-size: 20px;
+    line-height: 24px;
+
+    padding: 10px 20px;
+  }
+
+  .form__list-halls {
+    margin-bottom: 70px;
+  }
+
+  .form__main-item {
+    gap: 40px;
+  }
+
+}

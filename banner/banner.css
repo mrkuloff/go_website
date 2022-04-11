@@ -193,6 +193,8 @@
   .banner__circle {
     width: 67px;
     height: 67px;
+    left: 461px;
+    top: 263px;
   }
 
   .banner__p-checkbox {
@@ -206,9 +208,25 @@
   }
 
   .banner__start-word::after {
-    content: url("../banner/img/man 1024.png");
+    content: '';
+    position: absolute;
+
+    left: 504px;
+    top: 58px;
+
     width: 453px;
     height: 520px;
+
+    background-image: url('../banner/img/man 1024.png');
+  }
+
+  .banner__blocks {
+    margin-bottom: 80px;
+  }
+
+  .banner__form {
+    width: 296px;
+    height: 64px;
   }
 
 }
