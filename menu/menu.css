@@ -82,6 +82,10 @@ header {
   background: var(--color-4-hover-focus);
 }
 
+.menu__nav {
+  display: block;
+}
+
 @media (max-width: 1024px) {
   .menu__img {
     width: 87px;
@@ -114,15 +118,6 @@ header {
 }
 
 @media (max-width: 768px) {
-  .menu {
-    max-width: 768px;
-    justify-content: space-between;
-    margin: 0 auto;
-    display: flex;
-    gap: 159px;
-
-  }
-
   .menu__img {
     width: 87px;
     height: 55px;
@@ -130,7 +125,7 @@ header {
   }
 
   .menu__nav {
-    order: 0;
+    display: none;
   }
 
   .menu__order {
@@ -139,5 +134,13 @@ header {
     width: 229px;
     height: 45px;
     padding: 10px 20px;
+  }
+
+  .menu {
+    max-width: 768px;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    gap: 159px;
   }
 }
