@@ -114,6 +114,10 @@
   content: url("../banner/img/circle3.svg");
 }
 
+.banner__circle:checked {
+  content: url("../banner/img/circle4.svg");
+}
+
 
 .banner__circle {
   cursor: pointer;
@@ -158,6 +162,10 @@
 }
 
 .banner__p-checkbox:active {
+  background: var(--color-4-hover-focus);
+}
+
+.banner__p-checkbox:checked {
   background: var(--color-4-hover-focus);
 }
 

@@ -82,6 +82,10 @@
   box-sizing: border-box;
 }
 
+.form__item:checked {
+  background: #EADEED;
+}
+
 .form__list-pr {
   display: flex;
   flex-wrap: wrap;

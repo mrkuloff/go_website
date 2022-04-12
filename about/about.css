@@ -133,6 +133,10 @@
   padding-top: 100px;
 }
 
+.about__heading-2 {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .about {
     padding-top: 70px;

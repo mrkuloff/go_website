@@ -10,9 +10,11 @@
 
 <header>
   <div class="menu">
+    <a href="index.html">
       <img class="menu__img" src="menu/img/logo.svg" alt="GO">
+    </a>
 
-      <nav>
+      <nav class="menu__nav">
         <li class="menu__list">
           <ul class="menu__item">
             <a href="#zal">ЗАЛЫ</a>
@@ -218,7 +220,7 @@
         <input class="form__item-date" name="time" type="time" id="time" required>
       </label>
       <label class="form__list-hm" for="howmuch">
-        <input class="form__item-hm" type="number" name="number" id="howmuch" required>
+        <input class="form__item-hm" type="number" placeholder="Сколько человек" name="number" id="howmuch" required>
       </label>
       </div>
 
@@ -387,10 +389,12 @@
       <div class="contacts__blocks">
         <div class="contacts__blocks1">
       <ul class="contacts__block">
-        <li class="contacts__block-adres">
-          <p class="contacts__link contacts__link_adres contacts__link_p">
-            г. Москва ул. Аквамарина, 16
+        <li class="contacts__block-adres contacts__link_adres" >
+          <p class="contacts__link contacts__link_p">
+            <span>г. Москва</span>
+            <span>ул. Усачёва, 29 к3</span>
           </p>
+
         </li>
         <li>
           <a class="contacts__link contacts__link_phone contacts__link_a" href = "tel:89509302893">
@@ -398,7 +402,7 @@
           </a>
         </li>
         <li>
-          <a class="contacts__link contacts__link_mail contacts__link_a" href = "mailto:gameover@gmail.com">
+          <a class="contacts__link contacts__link_mail contacts__link_a" href = "mailto:info@vrmotion.com.ua">
             GameOver@gmail.com
           </a>
         </li>
@@ -454,6 +458,10 @@
 
         <div class="contacts__blocks2">
           <img src="contacts/img/map.png" alt="map">
+        </div>
+
+        <div class="contacts__blocks2-2">
+          <img src="contacts/img/map2.png" alt="map">
         </div>
       </div>
 

@@ -92,3 +92,40 @@
 .questions__block:last-child{
   margin-bottom: 0;
 }
+
+@media (max-width: 1024px) {
+  .questions__block {
+    width: 904px;
+  }
+
+  .questions__block-purple {
+    background: #FFFFFF;
+  }
+
+  .questions__text-purple {
+    color: #1C1A1A;
+  }
+
+  .questions__block-purple_for-point::after {
+    content: url("../questions/img/open-white-block.svg");
+
+    vertical-align: middle;
+    float: right;
+
+    margin-top: -37px;
+  }
+
+  .questions__block-purple_for-point:hover:after {
+    content: url("../questions/img/purple1.svg");
+    vertical-align: middle;
+    float: right;
+    margin-top: -37px;
+  }
+
+  .questions__block-purple_for-point:active:after , .questions__block-purple_for-point:focus:after {
+    content: url("../questions/img/purple2.svg");
+    vertical-align: middle;
+    float: right;
+    margin-top: -37px;
+  }
+}
