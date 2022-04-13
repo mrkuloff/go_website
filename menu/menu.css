@@ -15,10 +15,9 @@ header {
   list-style: none;
 }
 
-.menu__item:hover {
+.menu__item > a:hover {
   color: var(--color-1);
 }
-
 
 
 .menu__item {
@@ -36,10 +35,6 @@ header {
 
 .menu__item:last-child {
   padding-right: 0;
-}
-
-.menu__checkbox {
-
 }
 
 .menu__order {
@@ -82,8 +77,8 @@ header {
   background: var(--color-4-hover-focus);
 }
 
-.menu__nav {
-  display: block;
+.menu__img-menu {
+  display: none;
 }
 
 @media (max-width: 1024px) {
@@ -107,13 +102,16 @@ header {
     padding: 10px 20px;
   }
 
-    .menu {
-      max-width: 1024px;
-      justify-content: space-between;
-      margin: 0 auto;
-      display: flex;
+  .menu {
+    max-width: 1024px;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+  }
 
-    }
+  .menu__img-menu {
+    display: none;
+  }
 
 }
 
@@ -121,26 +119,22 @@ header {
   .menu__img {
     width: 87px;
     height: 55px;
+    order: 2;
+  }
+
+  .menu__img-menu {
+    display: inline-block;
+    width: 54px;
+    height: 29px;
     order: 1;
   }
 
-  .menu__nav {
+  .menu__list , .menu__item {
     display: none;
   }
 
   .menu__order {
-    font-size: 18px;
-    line-height: 24px;
-    width: 229px;
-    height: 45px;
-    padding: 10px 20px;
+    order: 3;
   }
 
-  .menu {
-    max-width: 768px;
-    justify-content: space-between;
-    margin: 0 auto;
-    display: flex;
-    gap: 159px;
-  }
 }
