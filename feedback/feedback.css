@@ -44,6 +44,8 @@
   position: absolute;
   left: -85px;
   top: 110px;
+
+  cursor: pointer;
 }
 
 .feedback__block-1::after {
@@ -52,6 +54,8 @@
   position: absolute;
   left: 1055px;
   top: 110px;
+
+  cursor: pointer;
 }
 
 .feedback__block-2 {
@@ -105,7 +109,7 @@
     content: url("../feedback/img/right 1024.png");
 
     position: absolute;
-    left: 853px;
+    left: 779px;
     top: 64px;
   }
 }

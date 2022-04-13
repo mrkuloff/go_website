@@ -83,7 +83,7 @@ iframe {
 */
 
 .container {
-  max-width: 1240px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
@@ -102,7 +102,7 @@ section {
   }
 
   .container {
-    max-width: 1024px;
+    max-width: 904px;
     margin: 0 auto;
   }
 }
@@ -113,7 +113,7 @@ section {
   }
 
   .container {
-    max-width: 768px;
+    max-width: 688px;
     margin: 0 auto;
   }
 }

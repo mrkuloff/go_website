@@ -73,6 +73,17 @@
 }
 
 @media (max-width: 1024px) {
+  .halls__block {
+    max-width: 430px;
+    max-height: 267px;
+    margin-bottom: 12px;
+  }
+
+  .halls__block:not(:nth-child(2n-1)) {
+    block-size: border-box;
+    margin-right: 20px;
+  }
+
   .halls__text {
     font-weight: 700;
     font-size: 30px;

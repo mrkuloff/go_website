@@ -103,7 +103,7 @@ header {
   }
 
   .menu {
-    max-width: 1024px;
+    max-width: 904px;
     justify-content: space-between;
     margin: 0 auto;
     display: flex;
@@ -137,4 +137,11 @@ header {
     order: 3;
   }
 
+  .menu {
+    max-width: 688px;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 140px;
+    display: flex;
+  }
 }

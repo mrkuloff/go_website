@@ -296,8 +296,14 @@
     margin-bottom: 70px;
   }
 
-  .form__main-item {
-    gap: 40px;
+  .form__some-blocks {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .form__submits {
+    margin-right: 0;
   }
 
 }
