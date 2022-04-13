@@ -1,6 +1,5 @@
 .happy__text {
-  width: 980px;
-  height: 103px;
+  max-width: 980px;
 
   font-style: normal;
   font-weight: 700;
@@ -105,5 +104,129 @@
 
   .happy {
     padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .happy {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .happy__text {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+
+  .happy__item_2:hover , .happy__item_5:hover ,
+  .happy__item_2:focus , .happy__item_2:active ,
+  .happy__item_5:focus , .happy__item_5:active {
+    transform: scale(1.1);
+    transition-duration: 250ms;
+  }
+
+  .happy__item_1-img {
+    background-image: url("../happy/img/1 768.png");
+  }
+
+  .happy__item_2-img {
+    background-image: url("../happy/img/2 768.png");
+    transform: translate(0);
+  }
+  .happy__item_3-img {
+    background-image: url("../happy/img/3 768.png");
+  }
+  .happy__item_4-img {
+    background-image: url("../happy/img/4 768.png");
+  }
+  .happy__item_5-img {
+    background-image: url("../happy/img/5 768.png");
+    transform: translate(0);
+  }
+  .happy__item_6-img {
+    background-image: url("../happy/img/6 768.png");
+  }
+
+  .happy__list {
+    display: flex;
+    flex-basis: 334px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .happy__p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .happy__item {
+    padding-top: 132px;
+    padding-left: 30px;
+
+    width: 334px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .happy {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .happy__text {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 30px;
+  }
+
+  .happy__item_2:hover , .happy__item_5:hover ,
+  .happy__item_2:focus , .happy__item_2:active ,
+  .happy__item_5:focus , .happy__item_5:active {
+    transform: scale(1.1);
+    transition-duration: 250ms;
+  }
+
+  .happy__item_1-img {
+    background-image: url("../happy/img/1 320.png");
+  }
+
+  .happy__item_2-img {
+    background-image: url("../happy/img/2 320.png");
+    transform: translate(0);
+  }
+  .happy__item_3-img {
+    background-image: url("../happy/img/3 320.png");
+  }
+  .happy__item_4-img {
+    background-image: url("../happy/img/4 320.png");
+  }
+  .happy__item_5-img {
+    background-image: url("../happy/img/5 320.png");
+    transform: translate(0);
+  }
+  .happy__item_6-img {
+    background-image: url("../happy/img/6 320.png");
+  }
+
+  .happy__list {
+    display: flex;
+    flex-basis: 135px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .happy__p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .happy__item {
+    padding-top: 30px;
+    padding-left: 10px;
+
+    width: 135px;
+    height: 75px;
   }
 }

@@ -272,6 +272,10 @@
   margin-right: 90px;
 }
 
+.form__date-time_768 {
+  display: none;
+}
+
 
 @media (max-width: 1024px) {
   .form {
@@ -306,4 +310,189 @@
     margin-right: 0;
   }
 
+  .form__date-time_768 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .form {
+    padding-top: 50px;
+  }
+
+  .form__title {
+    margin-bottom: 40px;
+  }
+
+  .form__main-text {
+    margin-bottom: 30px;
+  }
+
+  .form__title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .form__item {
+    width: 150px;
+    height: 38px;
+
+    font-size: 16px;
+    line-height: 20px;
+
+    padding: 9px 20px;
+  }
+
+  .form__list-halls {
+    margin-bottom: 50px;
+    gap: 29px;
+  }
+
+  .form__some-blocks {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .form__submits {
+    margin-right: 0;
+  }
+
+  .form__text-pr {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .form__style {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .form__main-item {
+    justify-content: start;
+    gap: 30px 66px;
+  }
+
+  .form__item-date {
+    width: 134px;
+    height: 52px;
+    margin-bottom: 0;
+  }
+
+  .form__list-date2 {
+    margin-right: 14px;
+  }
+
+  .form__list-date2-2 {
+    margin-right: 96px;
+  }
+
+  .form__list-hm {
+    width: 300px;
+    height: 52px;
+
+    display: inline-block;
+  }
+
+  .form__some-blocks {
+    gap: 106px;
+  }
+
+  .form {
+    padding-bottom: 50px;
+  }
+
+  .form__date-time_768 {
+    display: block;
+    margin-bottom: 42px;
+  }
+
+  .form__date-time {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .form {
+    padding-top: 15px;
+  }
+
+  .form__title {
+    margin-bottom: 15px;
+  }
+
+  .form__main-text {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .form__title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .form__item {
+    width: 130px;
+    height: 30px;
+
+    font-size: 14px;
+    line-height: 18px;
+
+    padding: 6px 20px;
+  }
+
+  .form__list-halls {
+    margin-bottom: 30px;
+    gap: 18px;
+  }
+
+  .form__some-blocks {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+  }
+
+
+  .form__date-time_768 {
+    display: none;
+  }
+
+  .form__date-time {
+    display: block;
+  }
+
+  .form__some-blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form__item-date {
+    margin-bottom: 15px;
+  }
+
+  .form__item-date {
+    width: 134px;
+    height: 52px;
+  }
+
+  .form__list-date2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .form__item-hm , .form__blocks{
+    width: 280px;
+    height: 52px;
+    margin-left: 10px;
+  }
+
+  .form__contacts > label > span {
+    margin-left: 10px;
+  }
+
+  .form {
+    padding-bottom: 15px;
+  }
 }

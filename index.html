@@ -56,8 +56,12 @@
       <div class="banner__blocks">
         <div class="banner__block1">
           <p class="banner__1tittle1">4</p>
-          <p class="banner__1tittle2">Тематических
+          <p class="banner__1tittle2">
+            <span>
+            Тематических
+            </span><span>
             зала
+            </span>
           </p>
         </div>
 
@@ -71,7 +75,7 @@
       </div>
 
       <form action="#order" class="banner__form">
-        <button class="banner__p-checkbox" alt="Забронирова">
+        <button class="banner__p-checkbox" alt="Забронировать">
           Забронировать
         </button>
       </form>
@@ -127,19 +131,25 @@
       <h2 class="halls__text">Наши залы</h2>
 
         <div class="halls__block">
-          <p class="halls__block-text halls__block1 halls__bloc-uni">80’s vibes</p>
+          <p class="halls__block-text halls__block1 halls__bloc-uni">
+            <span>
+            80’s
+            </span><span>
+            vibes
+          </span>
+          </p>
         </div>
 
         <div class="halls__block">
-          <p class="halls__block-text halls__bloc-uni halls__block2">Star wars</p>
+          <p class="halls__block-text halls__bloc-uni halls__block2"><span>Star</span><span>wars</span></p>
         </div>
 
         <div class="halls__block">
-          <p class="halls__block-text halls__bloc-uni halls__block3">wild west</p>
+          <p class="halls__block-text halls__bloc-uni halls__block3"><span>wild</span><span>west</span></p>
         </div>
 
         <div class="halls__block">
-          <p class="halls__block-text halls__bloc-uni halls__block4">neon style</p>
+          <p class="halls__block-text halls__bloc-uni halls__block4"><span>neon</span><span>style</span></p>
         </div>
 
     </div>
@@ -214,18 +224,32 @@
       </div>
 
       <h3 class="form__main-text">Выбери дату и время</h3>
+
+      <div class="form__date-time_768">
+        <label class="form__list-date form__list-date2" for="date1">
+          <input class="form__item-date" type="date" id="date1" required name="date">
+        </label>
+        <label class="form__list-date form__list-date2-2" for="time1">
+          <input class="form__item-date" name="time" type="time" id="time1" required>
+        </label>
+        <label class="form__list-hm" for="howmuch">
+          <input class="form__item-hm" type="number" placeholder="Сколько человек" name="number" id="howmuch" required>
+        </label>
+      </div>
+
       <div class="form__some-blocks">
       <div class="form__date-time">
       <label class="form__list-date form__list-date2" for="date">
         <input class="form__item-date" type="date" id="date" required name="date">
       </label>
-      <label class="form__list-date " for="time">
+      <label class="form__list-date form__list-date2-2" for="time">
         <input class="form__item-date" name="time" type="time" id="time" required>
       </label>
       <label class="form__list-hm" for="howmuch">
         <input class="form__item-hm" type="number" placeholder="Сколько человек" name="number" id="howmuch" required>
       </label>
       </div>
+
 
       <div class="form__name">
         <label class="form__blocks-name">
@@ -323,7 +347,45 @@
             </figcaption>
           </figure>
         </div>
-    </div>
+
+      <div class="about__block about__text_768">
+        <p class="about__into-text-1_768">
+          Для наших гостей мы создали концептуально новое игровое
+          пространство виртуальной реальности
+          в центральной части города.
+        </p>
+        <p class="about__into-text-2_768">
+          Каждый день мы стараемся создавать
+          для вас самую лучшую игровую атмосферу
+          и радовать Вас топовыми игровыми разработками
+          со всего мира.
+        </p>
+      </div>
+
+        <article class="about__heading_768">
+          <p>
+            GAME OVER — это место
+          </p>
+          <p>
+            незабываемых впечатлений
+          </p>
+        </article>
+
+        <figure class="about__boss_768">
+          <img src="about/img/boss.png" alt="boss">
+          <figcaption>
+            <p>
+              Аркадий Абакшин,
+            </p>
+            <p>
+              создатель игровой
+            </p>
+            <p>
+              территории GAME OVER
+            </p>
+          </figcaption>
+        </figure>
+      </div>
   </section>
 
   <section class="feedback" id="feedback">
@@ -465,6 +527,10 @@
 
         <div class="contacts__blocks2-2">
           <img src="contacts/img/map2.png" alt="map">
+        </div>
+
+        <div class="contacts__blocks2-3">
+          <img src="contacts/img/map3.png" alt="map">
         </div>
       </div>
 

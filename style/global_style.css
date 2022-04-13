@@ -118,3 +118,14 @@ section {
   }
 }
 
+@media (max-width: 320px) {
+  section {
+    padding: 15px 0;
+  }
+
+  .container {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+

@@ -145,3 +145,34 @@ header {
     display: flex;
   }
 }
+
+@media (max-width: 320px) {
+  .menu__img {
+    width: 66px;
+    height: 42px;
+    order: 2;
+  }
+
+  .menu__img-menu {
+    display: inline-block;
+    width: 54px;
+    height: 29px;
+    order: 1;
+  }
+
+  .menu__list , .menu__item {
+    display: none;
+  }
+
+  .menu__order {
+    display: none;
+  }
+
+  .menu {
+    max-width: 280px;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 175px;
+    display: flex;
+  }
+}

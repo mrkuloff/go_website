@@ -238,3 +238,177 @@
   }
 
 }
+
+
+@media (max-width: 768px) {
+  .banner__start-word {
+    font-size: 86px;
+  }
+
+  .banner__text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .banner__1tittle1 {
+    font-size: 50px;
+    line-height: 71px;
+  }
+
+  .banner__2tittle1 {
+    padding-top: 15px;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+  }
+
+  .banner__2tittle2 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .banner__1tittle2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+
+  .banner__block1 {
+    flex-basis: 103px;
+  }
+
+  .banner__block1 {
+    flex-basis: 89px;
+  }
+
+  .banner__block2 {
+    flex-basis: 86px;
+  }
+
+  .banner__circle {
+    display: none;
+  }
+
+  .banner__p-checkbox {
+    font-size: 22px;
+    line-height: 30px;
+
+    padding: 0;
+  }
+
+  .banner__form {
+    margin-bottom: 104px;
+  }
+
+  .banner__start-word::after {
+    content: '';
+    position: absolute;
+
+    left: 272px;
+    top: 58px;
+
+    width: 409px;
+    height: 479px;
+
+    background-image: url('../banner/img/man 768.png');
+  }
+
+  .banner__blocks {
+    margin-bottom: 100px;
+    gap: 32px;
+  }
+
+  .banner__form {
+    width: 214px;
+    height: 46px;
+  }
+
+
+  .banner {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner__start-word {
+    font-size: 35px;
+  }
+
+  .banner__text {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+  }
+
+  .banner__1tittle1 {
+    font-size: 26px;
+    line-height: 37px;
+  }
+
+  .banner__2tittle1 {
+    padding-top: 4px;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+  }
+
+  .banner__2tittle2 {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .banner__1tittle2 {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .banner__block1 {
+    flex-basis: 65px;
+  }
+
+  .banner__block2 {
+    flex-basis: 54px;
+  }
+
+  .banner__p-checkbox {
+    font-size: 10px;
+    line-height: 12px;
+
+    width: 117px;
+    height: 27px;
+  }
+
+  .banner__form {
+    margin-bottom: 0;
+  }
+
+  .banner__start-word::after {
+    content: '';
+    position: absolute;
+
+    left: 116px;
+    top: 22px;
+
+    width: 161px;
+    height: 179px;
+
+    background-image: url('../banner/img/man 320.png');
+  }
+
+  .banner__blocks {
+    margin-bottom: 30px;
+    gap: 32px;
+  }
+
+  .banner__form {
+    width: 214px;
+    height: 46px;
+  }
+
+
+  .banner {
+    padding-bottom: 15px;
+  }
+}

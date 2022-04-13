@@ -113,3 +113,58 @@
     top: 64px;
   }
 }
+
+@media (max-width: 768px) {
+  .feedback__block-1::after {
+    content: url("../feedback/img/right 1024.png");
+    position: absolute;
+    left: 552px;
+    top: 64px;
+  }
+
+  .feedback__img {
+    width: 153px;
+    height: 153px;
+  }
+
+  .feedback__block-2 {
+    vertical-align: middle;
+    max-width: 326px;
+    max-height: 94px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .feedback__block-1::after {
+    content: url("../feedback/img/right 1024.png");
+    position: absolute;
+    left: 130px;
+    top: 26px;
+  }
+
+  .feedback__block-1::before {
+    top: 26px;
+  }
+
+  .feedback__img {
+    width: 86px;
+    height: 86px;
+  }
+
+  .feedback__block-2 {
+    max-width: 280px;
+    max-height: 66px;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: -90px;
+  }
+
+  .feedback__start-word {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

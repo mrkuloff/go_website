@@ -29,34 +29,25 @@
   background-repeat: no-repeat;
   width: 580px;
   height: 349px;
+
+  padding-left: 0;
+  padding-top: 104px;
 }
 
 .halls__block1 {
   background-image: url("../halls/img/halls1.png");
-
-  padding-left: 10px;
-  padding-top: 135px;
 }
 
 .halls__block2 {
   background-image: url("../halls/img/halls2.png");
-
-  padding-left: 10px;
-  padding-top: 135px;
 }
 
 .halls__block3 {
   background-image: url("../halls/img/halls3.png");
-
-  padding-left: 10px;
-  padding-top: 135px;
 }
 
 .halls__block4 {
   background-image: url("../halls/img/halls4.png");
-
-  padding-left: 10px;
-  padding-top: 135px;
 }
 
 .halls__text{
@@ -97,6 +88,9 @@
 
     background-size: 443px 267px;
     background-repeat: no-repeat;
+
+    padding-left: 0;
+    padding-top: 85px;
   }
 
   .halls__block-text {
@@ -107,5 +101,84 @@
 
   .halls {
     padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .halls__text {
+    margin-bottom: 30px;
+  }
+
+  .halls__block {
+    max-width: 335px;
+    max-height: 200px;
+    margin-bottom: 12px;
+  }
+
+  .halls__block:not(:nth-child(2n-1)) {
+    block-size: border-box;
+    margin-right: 5px;
+  }
+
+
+  .halls__bloc-uni {
+    width: 335px;
+    height: 200px;
+
+    background-size: 335px 200px;
+    background-repeat: no-repeat;
+
+    padding-left: 0;
+    padding-top: 53px;
+  }
+
+  .halls__block-text {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .halls {
+    padding-bottom: 60px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .halls__text {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .halls__block {
+    max-width: 280px;
+    max-height: 168px;
+    margin-bottom: 8px;
+  }
+
+  .halls__block:not(:nth-child(2n-1)) {
+    block-size: border-box;
+    margin-right: 0;
+  }
+
+
+  .halls__bloc-uni {
+    width: 280px;
+    height: 168px;
+
+    background-size: 280px 168px;
+    background-repeat: no-repeat;
+
+    padding-left: 0;
+    padding-top: 50px;
+  }
+
+  .halls__block-text {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .halls {
+    padding-bottom: 15px;
   }
 }

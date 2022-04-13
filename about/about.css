@@ -137,7 +137,16 @@
   display: none;
 }
 
+.about__boss_768 , .about__heading_768 , .about__into-text-1_768 , .about__text_768 {
+  display: none;
+}
+
 @media (max-width: 1024px) {
+
+  .about__boss_768 , .about__heading_768 , .about__into-text-1_768 , .about__text_768 {
+    display: none;
+  }
+
   .about {
     padding-top: 70px;
   }
@@ -226,6 +235,268 @@
 
   .about__boss {
     padding-left: 94px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .about {
+    padding-top: 60px;
+  }
+
+  .about__start-word {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .about__block-1 {
+    width: 382px;
+    height: 380px;
+
+    margin-right: 22px;
+  }
+
+  .about__block-2 {
+    display: none;
+  }
+
+  .about__text_768 {
+    display: inline-block;
+
+    font-size: 16px;
+    line-height: 22px;
+
+    height: 150px;
+    max-width: 278px;
+
+  }
+
+  .about__block{
+    vertical-align: middle;
+    margin-bottom: 41px;
+  }
+
+  .about__into-text-1_768 , .about__into-text-2_768 {
+    display: block;
+  }
+
+  .about__heading {
+    display: none;
+  }
+
+  .about__heading_768 {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+
+    text-transform: uppercase;
+
+    position: relative;
+
+    margin-left: 15px;
+    margin-bottom: 22px;
+  }
+
+  .about__heading_768::after {
+    display: block;
+
+    content: '"';
+
+    position: absolute;
+    width: 16px;
+    height: 36px;
+
+    left: -20px;
+    top: 0;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 114% */
+
+    text-transform: uppercase;
+
+    color: #6C0287;
+  }
+
+  .about__heading_768::before {
+    display: block;
+
+    content: '"';
+
+    position: absolute;
+    width: 16px;
+    height: 36px;
+
+    left: 528px;
+    top: 34px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 114% */
+
+    text-transform: uppercase;
+
+    color: #6C0287;
+  }
+
+  .about__boss_768 {
+    display: block;
+    padding-left: 340px;
+  }
+
+
+  .about__boss_768 img {
+    float: left;
+    margin-right: 30px;
+  }
+
+  .about__boss_768 figcaption{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .about__boss_768 span{
+    display: block;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .about {
+    padding-top: 15px;
+  }
+
+  .about__start-word {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about__block-1 {
+    width: 280px;
+    height: 280px;
+
+    margin-right: 0;
+  }
+
+  .about__block-2 {
+    display: none;
+  }
+
+  .about__text_768 {
+    display: block;
+
+    font-size: 16px;
+    line-height: 22px;
+
+    max-width: 280px;
+    height: 127px;
+
+  }
+
+  .about__block-1 {
+    display: block;
+  }
+
+  .about__block{
+    margin-bottom: 41px;
+  }
+
+  .about__into-text-1_768 , .about__into-text-2_768 {
+    display: block;
+  }
+
+  .about__heading {
+    display: none;
+  }
+
+  .about__heading_768 {
+    display: block;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+    text-transform: uppercase;
+
+    position: relative;
+
+    margin-top: 115px;
+  }
+
+  .about__heading_768::after {
+    display: block;
+
+    content: '"';
+
+    position: absolute;
+    width: 16px;
+    height: 36px;
+
+    left: -20px;
+    top: 0;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 114% */
+
+    text-transform: uppercase;
+
+    color: #6C0287;
+  }
+
+  .about__heading_768::before {
+    display: block;
+
+    content: '"';
+
+    position: absolute;
+    width: 16px;
+    height: 36px;
+
+    left: 139px;
+    top: 50px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 114% */
+
+    text-transform: uppercase;
+
+    color: #6C0287;
+  }
+
+  .about__boss_768 {
+    display: block;
+    padding-left: 0;
+  }
+
+  .about__boss_768 img {
+    width: 56px;
+    height: 56px;
+    margin-right: 30px;
+  }
+
+  .about__boss_768 figcaption{
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .about__boss_768 span{
+    display: block;
   }
 
 }
