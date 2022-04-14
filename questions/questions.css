@@ -43,50 +43,48 @@
   color: #FFFFFF;
 }
 
-.questions__block-white_for-point::after {
-  content: url("../questions/img/open-white-block.svg");
-
+.questions__block-white:after {
+  content: url(../questions/img/open-white-block.svg);
   vertical-align: middle;
   float: right;
-
-  margin-top: -37px;
+  margin-top: -10px;
 }
 
-.questions__block-white_for-point:hover:after {
+.questions__block-white:hover:after {
   content: url("../questions/img/purple1.svg");
   vertical-align: middle;
   float: right;
-  margin-top: -37px;
+  margin-top: -9px;
 }
 
-.questions__block-white_for-point:active:after , .questions__block-white_for-point:focus:after {
+.questions__block-white:active:after , .questions__block-white:focus:after {
   content: url("../questions/img/purple2.svg");
   vertical-align: middle;
   float: right;
-  margin-top: -37px;
+  margin-top: -9px;
 }
 
-.questions__block-purple_for-point::after {
+.questions__block-purple::after {
   content: url("../questions/img/open-purple-block.svg");
 
   vertical-align: middle;
   float: right;
 
-  margin-top: -37px;
+  margin-top: -9px;
 }
 
-.questions__block-purple_for-point:hover:after {
+.questions__block-purple:hover:after {
   content: url("../questions/img/white1.svg");
   vertical-align: middle;
   float: right;
-  margin-top: -37px;
+  margin-top: -9px;
 }
 
-.questions__block-purple_for-point:active:after , .questions__block-purple_for-point:focus:after {
+.questions__block-purple:active:after , .questions__block-purple:focus:after {
   content: url("../questions/img/purple2.svg");
   vertical-align: middle;
   float: right;
-  margin-top: -37px;
+  margin-top: -9px;
 }
 
 .questions__block:last-child{
@@ -106,27 +104,27 @@
     color: #1C1A1A;
   }
 
-  .questions__block-purple_for-point::after {
+  .questions__block-purple::after {
     content: url("../questions/img/open-white-block.svg");
 
     vertical-align: middle;
     float: right;
 
-    margin-top: -37px;
+    margin-top: -9px;
   }
 
-  .questions__block-purple_for-point:hover:after {
+  .questions__block-purple:hover:after {
     content: url("../questions/img/purple1.svg");
     vertical-align: middle;
     float: right;
-    margin-top: -37px;
+    margin-top: -9px;
   }
 
-  .questions__block-purple_for-point:active:after , .questions__block-purple_for-point:focus:after {
+  .questions__block-purple:active:after , .questions__block-purple:focus:after {
     content: url("../questions/img/purple2.svg");
     vertical-align: middle;
     float: right;
-    margin-top: -37px;
+    margin-top: -9px;
   }
 }
 
@@ -158,26 +156,38 @@
     color: #1C1A1A;
   }
 
-  .questions__block-purple_for-point::after {
+  .questions__block-purple::after {
     content: url("../questions/img/open-white-block.svg");
 
     vertical-align: middle;
     float: right;
 
-    margin-top: -37px;
+    margin-top: -40px;
   }
 
-  .questions__block-purple_for-point:hover:after {
+  .questions__block-purple:hover:after {
     content: url("../questions/img/purple1.svg");
     vertical-align: middle;
     float: right;
-    margin-top: -37px;
+    margin-top: -40px;
   }
 
-  .questions__block-purple_for-point:active:after , .questions__block-purple_for-point:focus:after {
+  .questions__block-purple:active:after , .questions__block-purple:focus:after {
     content: url("../questions/img/purple2.svg");
     vertical-align: middle;
     float: right;
-    margin-top: -37px;
+    margin-top: -40px;
+  }
+
+  .questions__block-white::after {
+    margin-top: -40px;
+  }
+
+  .questions__block-white:hover:after {
+    margin-top: -40px;
+  }
+
+  .questions__block-white:active:after , .questions__block-white:focus:after {
+    margin-top: -40px;
   }
 }
