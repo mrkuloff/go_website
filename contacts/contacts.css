@@ -66,112 +66,31 @@ section.contacts {
   margin-bottom: 30px;
 }
 
-.contacts__link_inst {
+.contacts__links {
   width: 48px;
   height: 48px;
-  background-size: 48px 48px;
   display: inline-block;
-  fill: #FFFFFF;
+  color: #FFFFFF;
+  outline: 1px solid transparent;
+  border-radius: 50%;
+  outline-offset: 3px;
+  transition-property: color, outline-color;
+  transition-duration: 0.3s, 0.2s;
+  transition-timing-function: ease-in-out;
 }
 
-.contacts__link_inst:hover {
-  fill: #EADEED;
+.contacts__links:hover {
+  color: #CD06FF;
 }
 
-.contacts__link_inst:active {
-  fill: #CD06FF;
+.contacts__links:active {
+  color: #840AA3;
 }
 
-.contacts__link_inst:focus {
-  fill: #EADEED;
-  border: 1px solid #CD06FF;
-  box-sizing: border-box;
+.contacts__links:focus {
+  outline-color: #CD06FF;
 }
 
-.contacts__link_inst:checked {
-  fill: var(--color-1);
-}
-
-.contacts__link_vk {
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  background-size: 48px 48px;
-  background-repeat: no-repeat;
-  fill: #FFFFFF;
-}
-
-.contacts__link_vk:hover {
-  fill: #EADEED;
-}
-
-.contacts__link_vk:active {
-  fill: #CD06FF;
-}
-
-.contacts__link_vk:focus {
-  fill: #EADEED;
-  border: 1px solid #CD06FF;
-  box-sizing: border-box;
-}
-
-.contacts__link_vk:checked {
-  fill: var(--color-1);
-}
-
-.contacts__link_fb {
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  background-size: 48px 48px;
-  background-repeat: no-repeat;
-  fill: #FFFFFF;
-}
-
-.contacts__link_fb:hover {
-  fill: #EADEED;
-}
-
-.contacts__link_fb:active {
-  fill: #CD06FF;
-}
-
-.contacts__link_fb:focus {
-  fill: #EADEED;
-  border: 1px solid #CD06FF;
-  box-sizing: border-box;
-}
-
-.contacts__link_fb:checked {
-  fill: var(--color-1);
-}
-
-.contacts__link_tg:hover {
-  fill: #EADEED;
-}
-
-.contacts__link_tg:active {
-  fill: #CD06FF;
-}
-
-.contacts__link_tg:focus {
-  fill: #EADEED;
-  border: 1px solid #CD06FF;
-  box-sizing: border-box;
-}
-
-.contacts__link_tg:checked {
-  fill: var(--color-1);
-}
-
-.contacts__link_tg {
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  background-size: 48px 48px;
-  fill: #FFFFFF;
-  background-repeat: no-repeat;
-}
 
 .contacts__blocks {
   display: flex;

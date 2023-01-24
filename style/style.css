@@ -11,6 +11,7 @@
 @import "../menu/menu.css";
 @import "../happy/happy.css";
 @import "../form/form.css";
+@import "../contacts/modal.css";
 
 * {
   box-sizing: border-box;

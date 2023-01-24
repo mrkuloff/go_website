@@ -12,9 +12,6 @@
 
 .questions__block{
   max-width: 100%;
-  height: 87px;
-
-  padding: 30px 70px;
   margin-bottom: 20px;
 }
 
@@ -24,6 +21,16 @@
 
 .questions__block-purple{
   background: var(--color-2-black);
+}
+
+.questions__button {
+  padding: 30px 70px;
+
+  border: transparent;
+  background-color: transparent;
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
 }
 
 .questions__text{
@@ -43,28 +50,50 @@
   color: #FFFFFF;
 }
 
-.questions__block-white:after {
+.questions__text-white:after {
   content: url(../questions/img/open-white-block.svg);
   vertical-align: middle;
   float: right;
   margin-top: -10px;
 }
 
-.questions__block-white:hover:after {
+.questions__text-white:hover:after {
   content: url("../questions/img/purple1.svg");
   vertical-align: middle;
   float: right;
   margin-top: -9px;
 }
 
-.questions__block-white:active:after , .questions__block-white:focus:after {
+.questions__text-white:active:after , .questions__text-white:focus:after {
   content: url("../questions/img/purple2.svg");
   vertical-align: middle;
   float: right;
   margin-top: -9px;
 }
 
-.questions__block-purple::after {
+.questions__text-wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height .4s ease-in-out;
+}
+
+.questions__active .questions__text-wrapper {
+  height: auto;
+}
+
+.questions__text-footer {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 30px 70px;
+  color: #000000;
+}
+
+.questions__text-footer-purple {
+  color: #FFFFFF;
+}
+
+.questions__text-purple::after {
   content: url("../questions/img/open-purple-block.svg");
 
   vertical-align: middle;
@@ -73,14 +102,14 @@
   margin-top: -9px;
 }
 
-.questions__block-purple:hover:after {
+.questions__text-purple:hover:after {
   content: url("../questions/img/white1.svg");
   vertical-align: middle;
   float: right;
   margin-top: -9px;
 }
 
-.questions__block-purple:active:after , .questions__block-purple:focus:after {
+.questions__text-purple:active:after , .questions__text-purple:focus:after {
   content: url("../questions/img/purple2.svg");
   vertical-align: middle;
   float: right;
@@ -92,19 +121,11 @@
 }
 
 @media (max-width: 1024px) {
-  .questions__block {
-    max-width: 100%;
-  }
-
   .questions__block-purple {
     background: #FFFFFF;
   }
 
-  .questions__text-purple {
-    color: #1C1A1A;
-  }
-
-  .questions__block-purple::after {
+  .questions__text-purple::after {
     content: url("../questions/img/open-white-block.svg");
 
     vertical-align: middle;
@@ -113,14 +134,14 @@
     margin-top: -9px;
   }
 
-  .questions__block-purple:hover:after {
+  .questions__text-purple:hover:after {
     content: url("../questions/img/purple1.svg");
     vertical-align: middle;
     float: right;
     margin-top: -9px;
   }
 
-  .questions__block-purple:active:after , .questions__block-purple:focus:after {
+  .questions__text-purple:active:after , .questions__text-purple:focus:after {
     content: url("../questions/img/purple2.svg");
     vertical-align: middle;
     float: right;
@@ -137,7 +158,6 @@
 
 @media (max-width: 320px) {
   .questions__block {
-    max-width: 100%;
     padding: 30px 15px;
   }
 
@@ -156,7 +176,7 @@
     color: #1C1A1A;
   }
 
-  .questions__block-purple::after {
+  .questions__text-purple::after {
     content: url("../questions/img/open-white-block.svg");
 
     vertical-align: middle;
@@ -165,29 +185,29 @@
     margin-top: -40px;
   }
 
-  .questions__block-purple:hover:after {
+  .questions__text-purple:hover:after {
     content: url("../questions/img/purple1.svg");
     vertical-align: middle;
     float: right;
     margin-top: -40px;
   }
 
-  .questions__block-purple:active:after , .questions__block-purple:focus:after {
+  .questions__text-purple:active:after , .questions__text-purple:focus:after {
     content: url("../questions/img/purple2.svg");
     vertical-align: middle;
     float: right;
     margin-top: -40px;
   }
 
-  .questions__block-white::after {
+  .questions__text-white::after {
     margin-top: -40px;
   }
 
-  .questions__block-white:hover:after {
+  .questions__text-white:hover:after {
     margin-top: -40px;
   }
 
-  .questions__block-white:active:after , .questions__block-white:focus:after {
+  .questions__text-white:active:after , .questions__text-white:focus:after {
     margin-top: -40px;
   }
 }

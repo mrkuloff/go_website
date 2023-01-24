@@ -101,6 +101,7 @@ header {
     width: 229px;
     height: 45px;
     padding: 10px 20px;
+    cursor: pointer;
   }
 
   .menu {
@@ -132,6 +133,8 @@ header {
 
   .menu__list , .menu__item {
     display: none;
+
+    cursor: pointer;
   }
 
   .menu__order {
