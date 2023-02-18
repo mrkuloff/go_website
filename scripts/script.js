@@ -1,7 +1,6 @@
 const modalController= ({modal, btnOpen, btnClose}) => {
   const buttonElem = document.querySelector(btnOpen);
   const modalElem = document.querySelector(modal);
-  //TODO повторное нажатие на кнопку не работает, вероятно из-за прописанных стилей здесь
   modalElem.style.cssText = `
     display: flex;
     visibility: hidden;
@@ -16,9 +15,10 @@ const modalController= ({modal, btnOpen, btnClose}) => {
     }
 
     setTimeout(() => {
+      modalElem.style.visibility = 'hidden';
     }, 300);
 
-    window.removeEventListener('keydown', closeModal)
+    window.removeEventListener('keydown', closeModal) //нажатие клавиши
   }
 
   const openModal = () => {
@@ -42,10 +42,6 @@ const buttons = document.querySelectorAll('.questions__button');
 const textWrapper = document.querySelectorAll('.questions__text-wrapper');
 
 const accordionController = (items, buttons, textWrapper) => {
-  console.log(items)
-  console.log(buttons)
-  console.log(textWrapper)
-
   let heightWrapper = 0;
   textWrapper.forEach((elem) => {
     if (heightWrapper < elem.scrollHeight) {
@@ -78,6 +74,49 @@ modalController({
   btnOpen: '.menu__order',
   btnClose: '.modal__close'
 });
+
+const menuIcon = document.querySelector('.menu__img-menu');
+const menu = document.querySelector('.menu__nav-mobile');
+
+const burgerMenu = (menuIcon, menu) => {
+  //TODO доделать фиксацию сверху страницу и блюр фона, подключить RAF
+  window.addEventListener('resize', () => {
+    if (document.documentElement.scrollWidth > 768) {
+      closeMenu();
+    }
+  });
+
+  menuIcon.addEventListener('click', () => {
+    openMenu();
+  });
+
+
+  const openMenu = () => {
+    menu.style.cssText = `
+    opacity: 1;
+    display: flex;
+    `
+    menuIcon.src = 'menu/img/close.svg';
+
+    menuIcon.addEventListener('click', () => {
+      closeMenu();
+    });
+  }
+
+
+  const closeMenu = () => {
+    menu.style.cssText = `
+     opacity: 0;
+     display: none;
+    `
+    menuIcon.src = 'menu/img/menu.svg';
+    menuIcon.removeEventListener('click', () => {
+      closeMenu();
+    });
+  }
+}
+
+burgerMenu(menuIcon, menu);
 
 
 

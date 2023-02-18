@@ -11,15 +11,40 @@
 <body>
 
 <header>
-  <div class="menu">
-    <a href="index.html">
-      <img class="menu__img" src="menu/img/logo.svg" alt="GO">
-    </a>
+  <div class="container-menu">
+    <div class="menu__adaptive">
+      <div class="menu">
+        <a href="index.html">
+          <img class="menu__img" src="menu/img/logo.svg" alt="GO">
+        </a>
 
-      <div class="menu__nav">
+        <div class="menu__nav">
 
-        <img class="menu__img-menu" src="menu/img/menu.svg" alt="menu">
+          <img class="menu__img-menu" src="menu/img/menu.svg" alt="menu">
 
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#zal">ЗАЛЫ</a>
+            </li>
+            <li class="menu__item">
+              <a href="#about">О НАС</a>
+            </li>
+            <li class="menu__item">
+              <a href="#order">БРОНЬ</a>
+            </li>
+            <li class="menu__item">
+              <a href="#feedback">ОТЗЫВЫ</a>
+            </li>
+            <li class="menu__item">
+              <a href="#contacts">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="menu__order">Заказать звонок</button>
+      </div>
+
+      <div class="menu__nav-mobile">
         <ul class="menu__list">
           <li class="menu__item">
             <a href="#zal">ЗАЛЫ</a>
@@ -37,10 +62,12 @@
             <a href="#contacts">КОНТАКТЫ</a>
           </li>
         </ul>
-      </div>
 
-    <button class="menu__order">Заказать звонок</button>
+        <button class="menu__order">Заказать звонок</button>
+      </div>
     </div>
+
+  </div>
 </header>
 
 <main>
