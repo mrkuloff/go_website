@@ -73,13 +73,12 @@ modalController({
   modal: '.modal',
   btnOpen: '.menu__order',
   btnClose: '.modal__close'
-});
+});//TODO доделать фиксацию сверху страницу и блюр фона
 
 const menuIcon = document.querySelector('.menu__img-menu');
 const menu = document.querySelector('.menu__nav-mobile');
 
 const burgerMenu = (menuIcon, menu) => {
-  //TODO доделать фиксацию сверху страницу и блюр фона, подключить RAF
   window.addEventListener('resize', () => {
     if (document.documentElement.scrollWidth > 768) {
       closeMenu();
@@ -98,9 +97,7 @@ const burgerMenu = (menuIcon, menu) => {
     `
     menuIcon.src = 'menu/img/close.svg';
 
-    menuIcon.addEventListener('click', () => {
-      closeMenu();
-    });
+    menuIcon.addEventListener('click', closeMenu)
   }
 
 
@@ -110,9 +107,7 @@ const burgerMenu = (menuIcon, menu) => {
      display: none;
     `
     menuIcon.src = 'menu/img/menu.svg';
-    menuIcon.removeEventListener('click', () => {
-      closeMenu();
-    });
+    menuIcon.removeEventListener('click', closeMenu)
   }
 }
 
